@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SquidGamesVC" customModule="XibViewMyProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="166527-kalmar-krovati_dlya_dichi_kalmarov-yuzhnaya_koreya-chto_sae_byeok-netfliks-3840x2160" translatesAutoresizingMaskIntoConstraints="NO" id="X5o-LG-z0W">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5f-zD-4cZ">
+                    <rect key="frame" x="30" y="130" width="315" height="72.666666666666686"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <color key="tintColor" systemColor="labelColor"/>
+                    <attributedString key="attributedText">
+                        <fragment content="B4 B4 B4 | B4 B4 B4 | D5# B4 B4 A4 | G4 A4 B4 | B4 B4 B4 | B4 B4 B4 | B4 A4 G4 A4 | G4 E4 E4 ">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="20"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <color key="highlightedColor" systemColor="systemPurpleColor"/>
+                    <color key="shadowColor" systemColor="systemPurpleColor"/>
+                </label>
+                <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example🦑" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9r-ic-Zpb">
+                    <rect key="frame" x="40" y="80" width="100" height="30"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Piw-Yo-0gT"/>
+                        <constraint firstAttribute="height" constant="30" id="fkr-BY-L9S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYy-kg-lez">
+                    <rect key="frame" x="40" y="47" width="295" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="PLAY/STOP melody" cornerStyle="medium">
+                        <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                        <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="stopPlaySquadMelody:" destination="-1" eventType="touchUpInside" id="4eQ-i5-UHF"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FsF-NJ-VJK">
+                    <rect key="frame" x="0.0" y="232.66666666666663" width="375" height="137"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTE-xG-tgT">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="137"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="squidOne" imagePlacement="bottom">
+                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                <attributedString key="attributedTitle">
+                                    <fragment content="E4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="eFourButton:" destination="-1" eventType="touchUpInside" id="U5p-Xl-41G"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEH-7E-BvG">
+                            <rect key="frame" x="125" y="0.0" width="125" height="137"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="squidSix" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="D5#">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="dFiveDiezButton:" destination="-1" eventType="touchUpInside" id="WmH-Uh-x4f"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMa-sU-2gP">
+                            <rect key="frame" x="250" y="0.0" width="125" height="137"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="squidFour" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="A4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="aFourButton:" destination="-1" eventType="touchUpInside" id="1ny-dq-xdL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="137" id="tID-mu-fMw"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ze-oZ-M44">
+                    <rect key="frame" x="50" y="379.66666666666669" width="275" height="137.00000000000006"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhZ-hs-K7Y">
+                            <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="137"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="squidSeven" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="B4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="bFourButton:" destination="-1" eventType="touchUpInside" id="g3X-at-WBZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvR-Nn-Cua">
+                            <rect key="frame" x="137.66666666666663" y="0.0" width="137.33333333333337" height="137"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="squidThree" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="G4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="gFourButton:" destination="-1" eventType="touchUpInside" id="p0t-Sw-3pB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="137" id="1de-3V-4YE"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FsF-NJ-VJK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3Mc-6I-xV4"/>
+                <constraint firstItem="w5f-zD-4cZ" firstAttribute="top" secondItem="y9r-ic-Zpb" secondAttribute="bottom" constant="20" id="4UE-PR-3no"/>
+                <constraint firstItem="X5o-LG-z0W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5cf-IH-8Jy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="w5f-zD-4cZ" secondAttribute="trailing" constant="30" id="ETV-59-VeN"/>
+                <constraint firstItem="y9r-ic-Zpb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="GDP-u0-6Lu"/>
+                <constraint firstItem="X5o-LG-z0W" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SBC-Rm-eMs"/>
+                <constraint firstItem="FsF-NJ-VJK" firstAttribute="top" secondItem="w5f-zD-4cZ" secondAttribute="bottom" constant="30" id="SJb-EA-Trl"/>
+                <constraint firstItem="FYy-kg-lez" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="3" id="Ttc-xf-dCW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FYy-kg-lez" secondAttribute="trailing" constant="40" id="aX3-N5-z9X"/>
+                <constraint firstItem="X5o-LG-z0W" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="cce-Wv-Xk1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FsF-NJ-VJK" secondAttribute="trailing" id="ef4-UP-Qyh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Ze-oZ-M44" secondAttribute="trailing" constant="50" id="fqT-Tt-arY"/>
+                <constraint firstItem="y9r-ic-Zpb" firstAttribute="top" secondItem="FYy-kg-lez" secondAttribute="bottom" constant="2" id="nbq-J1-CBN"/>
+                <constraint firstItem="w5f-zD-4cZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="nze-o2-W70"/>
+                <constraint firstAttribute="bottom" secondItem="X5o-LG-z0W" secondAttribute="bottom" id="qNO-SH-EwP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="w5f-zD-4cZ" secondAttribute="trailing" constant="30" id="r16-1x-soD"/>
+                <constraint firstItem="2Ze-oZ-M44" firstAttribute="top" secondItem="FsF-NJ-VJK" secondAttribute="bottom" constant="10" id="vJn-GN-sNq"/>
+                <constraint firstItem="w5f-zD-4cZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="wX4-FP-gP9"/>
+                <constraint firstItem="2Ze-oZ-M44" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="xRy-yd-VPh"/>
+                <constraint firstItem="FYy-kg-lez" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="yz9-kJ-ncK"/>
+            </constraints>
+            <point key="canvasLocation" x="136.80000000000001" y="97.601199400299862"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="166527-kalmar-krovati_dlya_dichi_kalmarov-yuzhnaya_koreya-chto_sae_byeok-netfliks-3840x2160" width="3840" height="2160"/>
+        <image name="squidFour" width="100" height="100"/>
+        <image name="squidOne" width="100" height="100"/>
+        <image name="squidSeven" width="100" height="100"/>
+        <image name="squidSix" width="100" height="100"/>
+        <image name="squidThree" width="100" height="100"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
