@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PinkPanterViewController" customModule="XibViewMyProject" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PinkPanterViewController" customModule="diplomaProjectXcode" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -18,118 +18,13 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pinkPanterVC" translatesAutoresizingMaskIntoConstraints="NO" id="EDv-J3-fpn">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pinkPanterVC" translatesAutoresizingMaskIntoConstraints="NO" id="EDv-J3-fpn">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3I3-35-hKd">
-                    <rect key="frame" x="216" y="260" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="KdG-uj-oKC"/>
-                        <constraint firstAttribute="width" constant="60" id="fTk-zl-LM8"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="C4">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="cFourButton:" destination="-1" eventType="touchUpInside" id="abB-ny-Psb"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tT8-Kq-Adm">
-                    <rect key="frame" x="206" y="351" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="LjI-tN-4tS"/>
-                        <constraint firstAttribute="width" constant="60" id="ZKd-ko-SEt"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="B3">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="bThreeButton:" destination="-1" eventType="touchUpInside" id="yCn-pa-tAI"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKE-wo-0eB">
-                    <rect key="frame" x="30" y="225" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="3Oo-LQ-SLj"/>
-                        <constraint firstAttribute="width" constant="60" id="h6f-Kr-Fv2"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="D3#">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="dThreeDiezButton:" destination="-1" eventType="touchUpInside" id="8a7-jO-aJj"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCx-UG-F47">
-                    <rect key="frame" x="119" y="337" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="2Lf-0d-3zT"/>
-                        <constraint firstAttribute="height" constant="60" id="Zv3-6h-u10"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="G3">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="gThreeButton:" destination="-1" eventType="touchUpInside" id="Eol-lh-pSD"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR8-u1-p9c">
-                    <rect key="frame" x="115" y="250" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="ihc-ru-hJV"/>
-                        <constraint firstAttribute="height" constant="60" id="zp3-SU-BJP"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="E3">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="eThreeButton:" destination="-1" eventType="touchUpInside" id="eyF-0W-bHD"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-Ud-wkw">
-                    <rect key="frame" x="199" y="439" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="PkZ-DF-mPb"/>
-                        <constraint firstAttribute="height" constant="60" id="tqv-m6-Pzo"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="A3#">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="aThreeDiezButton:" destination="-1" eventType="touchUpInside" id="5uS-tK-c2f"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j36-ec-eS0">
-                    <rect key="frame" x="34" y="323" width="60" height="60"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="60" id="QDJ-67-Hgl"/>
-                        <constraint firstAttribute="width" constant="60" id="Y55-AK-7Sz"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="F3#">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="fThreeDiezButton:" destination="-1" eventType="touchUpInside" id="RdK-3b-BSy"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLW-6H-o6i">
                     <rect key="frame" x="30" y="125" width="315" height="90"/>
                     <color key="backgroundColor" red="0.89953464269638062" green="0.96536713838577271" blue="0.050459817051887512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="90" id="MjH-6B-QCU"/>
                         <constraint firstAttribute="width" constant="315" id="Zgf-rv-RYm"/>
@@ -179,69 +74,165 @@
                         <action selector="playStopMelody:" destination="-1" eventType="touchUpInside" id="J1f-6r-YEM"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tN3-aG-68z">
-                    <rect key="frame" x="116" y="422" width="60" height="60"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Z0-4K-9Nh">
+                    <rect key="frame" x="282" y="260" width="73" height="232"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3I3-35-hKd">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="C4">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="cFourButton:" destination="-1" eventType="touchUpInside" id="abB-ny-Psb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tT8-Kq-Adm">
+                            <rect key="frame" x="0.0" y="80" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="B3">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="bThreeButton:" destination="-1" eventType="touchUpInside" id="yCn-pa-tAI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-Ud-wkw">
+                            <rect key="frame" x="0.0" y="167" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="A3#">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="aThreeDiezButton:" destination="-1" eventType="touchUpInside" id="5uS-tK-c2f"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="60" id="0dU-eI-2je"/>
-                        <constraint firstAttribute="width" constant="60" id="4mA-9X-9K1"/>
+                        <constraint firstAttribute="width" constant="73" id="c5P-d9-SRz"/>
+                        <constraint firstAttribute="height" constant="232" id="pjK-l1-gms"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="D3">
-                        <color key="baseForegroundColor" red="0.18484413620000001" green="0.014008334839999999" blue="0.97679299119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="dThreeButton:" destination="-1" eventType="touchUpInside" id="VAK-zR-rqQ"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="159-pE-7st">
-                    <rect key="frame" x="31" y="411" width="60" height="60"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ioM-nq-Vt5">
+                    <rect key="frame" x="157.5" y="252" width="60" height="227"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR8-u1-p9c">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="E3">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="eThreeButton:" destination="-1" eventType="touchUpInside" id="eyF-0W-bHD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCx-UG-F47">
+                            <rect key="frame" x="0.0" y="78" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="G3">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="gThreeButton:" destination="-1" eventType="touchUpInside" id="Eol-lh-pSD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tN3-aG-68z">
+                            <rect key="frame" x="0.0" y="160" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="D3">
+                                <color key="baseForegroundColor" red="0.18484413620000001" green="0.014008334839999999" blue="0.97679299119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="dThreeButton:" destination="-1" eventType="touchUpInside" id="VAK-zR-rqQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="60" id="3p3-nI-fZC"/>
-                        <constraint firstAttribute="height" constant="60" id="9Zv-tv-yi1"/>
+                        <constraint firstAttribute="height" constant="227" id="LhB-QG-PCL"/>
+                        <constraint firstAttribute="width" constant="60" id="ijb-eX-RIL"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="A3">
-                        <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="aTwoButton:" destination="-1" eventType="touchUpInside" id="FdU-Ow-L7d"/>
-                    </connections>
-                </button>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2br-YQ-8oJ">
+                    <rect key="frame" x="20" y="247" width="58" height="240"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKE-wo-0eB">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="D3#">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="dThreeDiezButton:" destination="-1" eventType="touchUpInside" id="8a7-jO-aJj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j36-ec-eS0">
+                            <rect key="frame" x="0.0" y="81" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="F3#">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="fThreeDiezButton:" destination="-1" eventType="touchUpInside" id="RdK-3b-BSy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="159-pE-7st">
+                            <rect key="frame" x="0.0" y="160" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="pinkButton" imagePlacement="bottom" title="A3">
+                                <color key="baseForegroundColor" red="0.18484413623809814" green="0.014008334837853909" blue="0.97679299116134644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="aTwoButton:" destination="-1" eventType="touchUpInside" id="FdU-Ow-L7d"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="4Va-nc-CIN"/>
+                        <constraint firstAttribute="width" constant="58" id="SEM-Vj-hch"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="XCx-UG-F47" firstAttribute="top" secondItem="XR8-u1-p9c" secondAttribute="bottom" constant="27" id="3wc-d5-vKH"/>
                 <constraint firstItem="5bG-zr-1AH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="35" id="4eZ-aq-SN8"/>
-                <constraint firstItem="159-pE-7st" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="31" id="5Rc-Fb-0hF"/>
-                <constraint firstItem="TKE-wo-0eB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="6wN-Nq-RK3"/>
-                <constraint firstItem="j36-ec-eS0" firstAttribute="top" secondItem="TKE-wo-0eB" secondAttribute="bottom" constant="38" id="6y8-2I-iTr"/>
-                <constraint firstItem="7AI-Ud-wkw" firstAttribute="top" secondItem="tT8-Kq-Adm" secondAttribute="bottom" constant="28" id="8gV-mO-aGe"/>
-                <constraint firstItem="159-pE-7st" firstAttribute="top" secondItem="j36-ec-eS0" secondAttribute="bottom" constant="28" id="DCa-MS-cYr"/>
-                <constraint firstItem="tN3-aG-68z" firstAttribute="top" secondItem="XCx-UG-F47" secondAttribute="bottom" constant="25" id="Dpv-k6-cRT"/>
+                <constraint firstItem="ioM-nq-Vt5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Js-ue-IbO"/>
+                <constraint firstItem="ioM-nq-Vt5" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="37" id="Agq-Cw-Jdx"/>
+                <constraint firstItem="2br-YQ-8oJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="B6a-bS-Zi1"/>
                 <constraint firstItem="EDv-J3-fpn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="E15-Vg-tkz"/>
                 <constraint firstItem="EDv-J3-fpn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="H8h-gu-AAo"/>
-                <constraint firstItem="3I3-35-hKd" firstAttribute="leading" secondItem="XR8-u1-p9c" secondAttribute="trailing" constant="41" id="OCH-YK-Sr3"/>
+                <constraint firstItem="6Z0-4K-9Nh" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="45" id="LiQ-TV-wkd"/>
                 <constraint firstItem="EDv-J3-fpn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="PGb-i2-dVA"/>
-                <constraint firstItem="XR8-u1-p9c" firstAttribute="leading" secondItem="TKE-wo-0eB" secondAttribute="trailing" constant="25" id="Qxl-SR-XFC"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tLW-6H-o6i" secondAttribute="trailing" constant="30" id="VyK-cm-lr2"/>
-                <constraint firstItem="tT8-Kq-Adm" firstAttribute="leading" secondItem="XCx-UG-F47" secondAttribute="trailing" constant="27" id="a02-BX-414"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6Z0-4K-9Nh" secondAttribute="trailing" constant="20" id="cZU-WY-Y02"/>
                 <constraint firstItem="qOc-Ct-tQ0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="dHW-qI-l1O"/>
-                <constraint firstItem="tT8-Kq-Adm" firstAttribute="top" secondItem="3I3-35-hKd" secondAttribute="bottom" constant="31" id="gvb-O2-BXV"/>
                 <constraint firstItem="qOc-Ct-tQ0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="h3v-hd-3pL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5bG-zr-1AH" secondAttribute="trailing" constant="45" id="iI7-v7-43e"/>
                 <constraint firstItem="tLW-6H-o6i" firstAttribute="top" secondItem="5bG-zr-1AH" secondAttribute="bottom" constant="30" id="id0-95-FbK"/>
-                <constraint firstItem="TKE-wo-0eB" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="10" id="iqD-v6-cW8"/>
-                <constraint firstItem="3I3-35-hKd" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="45" id="leg-bG-jf9"/>
-                <constraint firstItem="tN3-aG-68z" firstAttribute="leading" secondItem="159-pE-7st" secondAttribute="trailing" constant="25" id="mhL-ZB-rHS"/>
-                <constraint firstItem="XR8-u1-p9c" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="35" id="uP6-Yr-uWC"/>
-                <constraint firstItem="j36-ec-eS0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="uXZ-a5-fdB"/>
-                <constraint firstItem="XCx-UG-F47" firstAttribute="leading" secondItem="j36-ec-eS0" secondAttribute="trailing" constant="25" id="udJ-DG-deM"/>
                 <constraint firstAttribute="bottom" secondItem="EDv-J3-fpn" secondAttribute="bottom" id="wel-q8-VwH"/>
                 <constraint firstItem="tLW-6H-o6i" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="xT4-JO-M2K"/>
-                <constraint firstItem="7AI-Ud-wkw" firstAttribute="leading" secondItem="tN3-aG-68z" secondAttribute="trailing" constant="23" id="z1A-cz-chK"/>
+                <constraint firstItem="2br-YQ-8oJ" firstAttribute="top" secondItem="tLW-6H-o6i" secondAttribute="bottom" constant="32" id="yic-Wv-SUq"/>
             </constraints>
             <point key="canvasLocation" x="136.80000000000001" y="81.409295352323838"/>
         </view>

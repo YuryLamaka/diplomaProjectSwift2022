@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MortalCombatViewController" customModule="XibViewMyProject" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MortalCombatViewController" customModule="diplomaProjectXcode" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -52,111 +52,6 @@
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-Q1-31b">
-                    <rect key="frame" x="99" y="371" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="91" id="kX6-yY-aHu"/>
-                        <constraint firstAttribute="width" constant="63" id="sfv-ie-5gi"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="F4">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="fFourButton:" destination="-1" eventType="touchUpInside" id="oXe-b2-1qz"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-MC-310">
-                    <rect key="frame" x="16" y="346" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="63" id="La7-30-zIX"/>
-                        <constraint firstAttribute="height" constant="91" id="r7z-Zh-p62"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="B4">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="bFourButton:" destination="-1" eventType="touchUpInside" id="agm-4u-mfT"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7B-qI-4Gs">
-                    <rect key="frame" x="16" y="230" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="63" id="CTB-VB-FNy"/>
-                        <constraint firstAttribute="height" constant="91" id="VFc-HN-hmN"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="A4">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="aFourButton:" destination="-1" eventType="touchUpInside" id="GW7-DR-CRj"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tl-Bg-x7p">
-                    <rect key="frame" x="226" y="298" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="63" id="NZ7-za-lay"/>
-                        <constraint firstAttribute="height" constant="91" id="SIk-WG-x6y"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="D5">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="dFiveButton:" destination="-1" eventType="touchUpInside" id="j0k-qn-Tgb"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vga-RZ-vyh">
-                    <rect key="frame" x="311" y="306" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="63" id="8Qd-lf-VwO"/>
-                        <constraint firstAttribute="height" constant="91" id="ncm-h2-vXk"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="E5">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="eFiveButton:" destination="-1" eventType="touchUpInside" id="AZO-a1-SMp"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkv-xv-tKI">
                     <rect key="frame" x="16" y="107.33333333333333" width="358" height="33.333333333333329"/>
                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -173,29 +68,8 @@
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKD-kV-nhN">
-                    <rect key="frame" x="99" y="245" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="91" id="UoK-zE-Dxm"/>
-                        <constraint firstAttribute="width" constant="63" id="kyf-H9-NBb"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="C5">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="cFiveButton:" destination="-1" eventType="touchUpInside" id="4c0-5C-4sO"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSs-OA-b7c">
-                    <rect key="frame" x="267" y="194" width="107" height="26.666666666666657"/>
+                    <rect key="frame" x="267" y="194" width="107" height="25.666666666666657"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -216,7 +90,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8G-Sm-Wuj">
-                    <rect key="frame" x="267" y="230.66666666666666" width="107" height="26.666666666666657"/>
+                    <rect key="frame" x="267" y="229.66666666666666" width="107" height="25.333333333333343"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -236,29 +110,8 @@
                         <action selector="playStopPartTwo:" destination="-1" eventType="touchUpInside" id="vIZ-LC-LAr"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSW-Ax-5FP">
-                    <rect key="frame" x="307" y="429" width="63" height="91"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="91" id="Tr2-aQ-Xq0"/>
-                        <constraint firstAttribute="width" constant="63" id="Ywj-Pr-Scs"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
-                        <attributedString key="attributedTitle">
-                            <fragment content="G4">
-                                <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
-                    <connections>
-                        <action selector="gFoyrButton:" destination="-1" eventType="touchUpInside" id="4nb-SG-TbE"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Tb-7L-Xji">
-                    <rect key="frame" x="267" y="267.33333333333331" width="107" height="25.666666666666686"/>
+                    <rect key="frame" x="267" y="265" width="107" height="25.666666666666686"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
@@ -290,70 +143,226 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKX-Xj-RJA">
-                    <rect key="frame" x="229" y="407" width="63" height="91"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VbK-TW-1kF">
+                    <rect key="frame" x="240" y="304.66666666666669" width="134" height="208.00000000000006"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tl-Bg-x7p">
+                            <rect key="frame" x="0.0" y="0.0" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="D5">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="dFiveButton:" destination="-1" eventType="touchUpInside" id="j0k-qn-Tgb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKX-Xj-RJA">
+                            <rect key="frame" x="0.0" y="99" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="G5">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="gFiveButton:" destination="-1" eventType="touchUpInside" id="ZGc-GK-GgT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSW-Ax-5FP">
+                            <rect key="frame" x="71" y="117" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="G4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="gFoyrButton:" destination="-1" eventType="touchUpInside" id="4nb-SG-TbE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vga-RZ-vyh">
+                            <rect key="frame" x="71" y="18" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="E5">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="eFiveButton:" destination="-1" eventType="touchUpInside" id="AZO-a1-SMp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="91" id="OKk-ds-4G9"/>
-                        <constraint firstAttribute="width" constant="63" id="trA-L3-meq"/>
+                        <constraint firstAttribute="height" constant="208" id="7oW-Gq-Cvf"/>
+                        <constraint firstAttribute="width" constant="134" id="XzF-1X-MMk"/>
                     </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yR-09-6gt">
+                    <rect key="frame" x="16" y="237.66666666666663" width="134" height="225"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7B-qI-4Gs">
+                            <rect key="frame" x="0.0" y="0.0" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="A4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="aFourButton:" destination="-1" eventType="touchUpInside" id="GW7-DR-CRj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-MC-310">
+                            <rect key="frame" x="0.0" y="99" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="B4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="bFourButton:" destination="-1" eventType="touchUpInside" id="agm-4u-mfT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKD-kV-nhN">
+                            <rect key="frame" x="71" y="31" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="C5">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="cFiveButton:" destination="-1" eventType="touchUpInside" id="4c0-5C-4sO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-Q1-31b">
+                            <rect key="frame" x="71" y="134" width="63" height="91"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="F4">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="fFourButton:" destination="-1" eventType="touchUpInside" id="oXe-b2-1qz"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="225" id="dx5-Tz-GKT"/>
+                        <constraint firstAttribute="width" constant="134" id="kbb-EJ-THX"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWJ-hR-Qfm">
+                    <rect key="frame" x="163.66666666666666" y="222" width="63" height="91"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91" id="OQ1-4u-1Bw"/>
+                        <constraint firstAttribute="width" constant="63" id="ftR-Jw-5OB"/>
+                    </constraints>
+                    <color key="tintColor" systemColor="tintColor"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" image="mortalButton" imagePlacement="bottom">
+                    <buttonConfiguration key="configuration" style="plain" image="mortalButton" imagePlacement="bottom">
                         <attributedString key="attributedTitle">
-                            <fragment content="G5">
+                            <fragment content="A4#">
                                 <attributes>
-                                    <font key="NSFont" size="23" name="Helvetica-Bold"/>
+                                    <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
                         </attributedString>
-                        <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="gFiveButton:" destination="-1" eventType="touchUpInside" id="ZGc-GK-GgT"/>
+                        <action selector="aFourDiezButton:" destination="-1" eventType="touchUpInside" id="MLZ-LZ-KL6"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="UWJ-hR-Qfm" firstAttribute="top" secondItem="rXy-Cr-PrK" secondAttribute="bottom" constant="38" id="0mL-Zc-fJU"/>
                 <constraint firstItem="lkv-xv-tKI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="1KU-r3-rdo"/>
-                <constraint firstItem="8Ym-Q1-31b" firstAttribute="leading" secondItem="m0d-MC-310" secondAttribute="trailing" constant="20" id="27w-v8-AL2"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="C8G-Sm-Wuj" secondAttribute="trailing" constant="16" id="2I5-My-zjQ"/>
-                <constraint firstItem="8Ym-Q1-31b" firstAttribute="top" secondItem="oKD-kV-nhN" secondAttribute="bottom" constant="35" id="2s6-Fl-DvI"/>
                 <constraint firstItem="C8G-Sm-Wuj" firstAttribute="top" secondItem="QSs-OA-b7c" secondAttribute="bottom" constant="10" id="6FA-Mz-36e"/>
-                <constraint firstItem="vga-RZ-vyh" firstAttribute="top" secondItem="9Tb-7L-Xji" secondAttribute="bottom" constant="13" id="7LX-3J-eqt"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vga-RZ-vyh" secondAttribute="trailing" constant="16" id="7Qv-F6-Ajs"/>
                 <constraint firstItem="9Tb-7L-Xji" firstAttribute="top" secondItem="C8G-Sm-Wuj" secondAttribute="bottom" constant="10" id="7rX-gv-mK7"/>
-                <constraint firstItem="kKX-Xj-RJA" firstAttribute="top" secondItem="2Tl-Bg-x7p" secondAttribute="bottom" constant="18" id="8Ke-wN-Scu"/>
                 <constraint firstAttribute="bottom" secondItem="tw8-Xc-biw" secondAttribute="bottom" id="9bH-YF-cnK"/>
                 <constraint firstItem="rXy-Cr-PrK" firstAttribute="top" secondItem="lkv-xv-tKI" secondAttribute="bottom" constant="10" id="BuK-gJ-EAY"/>
-                <constraint firstItem="2Tl-Bg-x7p" firstAttribute="top" secondItem="9Tb-7L-Xji" secondAttribute="bottom" constant="5" id="DgX-0b-DPm"/>
                 <constraint firstItem="c8N-Bv-tLV" firstAttribute="top" secondItem="rXy-Cr-PrK" secondAttribute="bottom" constant="5" id="GPx-vD-TzS"/>
                 <constraint firstItem="c8N-Bv-tLV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="JY4-ih-ZJb"/>
-                <constraint firstItem="V7B-qI-4Gs" firstAttribute="top" secondItem="c8N-Bv-tLV" secondAttribute="bottom" constant="20" id="KQr-Be-Fbj"/>
-                <constraint firstItem="oKD-kV-nhN" firstAttribute="leading" secondItem="V7B-qI-4Gs" secondAttribute="trailing" constant="20" id="QWk-b2-aol"/>
+                <constraint firstItem="5yR-09-6gt" firstAttribute="top" secondItem="c8N-Bv-tLV" secondAttribute="bottom" constant="27.5" id="ORi-p3-Axq"/>
                 <constraint firstItem="dih-cm-j71" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ReS-89-cJD"/>
+                <constraint firstItem="5yR-09-6gt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ScM-oL-qeh"/>
                 <constraint firstItem="rXy-Cr-PrK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="To5-ba-sFb"/>
                 <constraint firstItem="tw8-Xc-biw" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="U7S-bU-OfF"/>
                 <constraint firstItem="lkv-xv-tKI" firstAttribute="top" secondItem="dih-cm-j71" secondAttribute="bottom" constant="10" id="UIk-CO-NbU"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dih-cm-j71" secondAttribute="trailing" constant="16" id="Xcg-gZ-W2O"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Tb-7L-Xji" secondAttribute="trailing" constant="16" id="Zci-9S-0nh"/>
-                <constraint firstItem="oKD-kV-nhN" firstAttribute="top" secondItem="c8N-Bv-tLV" secondAttribute="bottom" constant="35" id="ahy-7L-DKf"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tSW-Ax-5FP" secondAttribute="trailing" constant="20" id="beL-4b-feK"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lkv-xv-tKI" secondAttribute="trailing" constant="16" id="dIB-8A-JCM"/>
+                <constraint firstItem="UWJ-hR-Qfm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eu4-tk-GHq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rXy-Cr-PrK" secondAttribute="trailing" constant="16" id="ewG-Iz-xTc"/>
                 <constraint firstItem="tw8-Xc-biw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="h1c-eJ-c8h"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QSs-OA-b7c" secondAttribute="trailing" constant="16" id="hlE-GX-noy"/>
-                <constraint firstItem="V7B-qI-4Gs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="icg-xc-DzU"/>
                 <constraint firstItem="QSs-OA-b7c" firstAttribute="top" secondItem="rXy-Cr-PrK" secondAttribute="bottom" constant="10" id="jXQ-BM-Qmf"/>
-                <constraint firstItem="tSW-Ax-5FP" firstAttribute="leading" secondItem="kKX-Xj-RJA" secondAttribute="trailing" constant="15" id="kbc-yH-EEq"/>
-                <constraint firstItem="m0d-MC-310" firstAttribute="top" secondItem="V7B-qI-4Gs" secondAttribute="bottom" constant="25" id="lU9-vh-zjU"/>
                 <constraint firstItem="tw8-Xc-biw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qL8-1w-WcI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VbK-TW-1kF" secondAttribute="trailing" constant="16" id="slc-Eo-EG3"/>
                 <constraint firstItem="dih-cm-j71" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="toj-nW-mx9"/>
-                <constraint firstItem="tSW-Ax-5FP" firstAttribute="top" secondItem="vga-RZ-vyh" secondAttribute="bottom" constant="32" id="we9-Fn-td5"/>
-                <constraint firstItem="m0d-MC-310" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="xaV-ya-rfB"/>
-                <constraint firstItem="vga-RZ-vyh" firstAttribute="leading" secondItem="2Tl-Bg-x7p" secondAttribute="trailing" constant="22" id="xc7-mW-h3I"/>
+                <constraint firstItem="VbK-TW-1kF" firstAttribute="top" secondItem="9Tb-7L-Xji" secondAttribute="bottom" constant="14.33" id="xWE-7o-lQ5"/>
             </constraints>
-            <point key="canvasLocation" x="136.80000000000001" y="81.409295352323838"/>
+            <point key="canvasLocation" x="135.19999999999999" y="80.50974512743629"/>
         </view>
     </objects>
     <resources>
@@ -361,6 +370,9 @@
         <image name="mortalCombatVC" width="664" height="1000"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -63,6 +63,9 @@ class MortalCombatViewController: UIViewController {
         oneSoundOfNote.playSoundOfOneNote(note: .gFive)
     }
     
-
+    @IBAction func aFourDiezButton(_ sender: Any) {
+        oneSoundOfNote.playSoundOfOneNote(note: .aFourDiez)
+    }
+    
 
 }
