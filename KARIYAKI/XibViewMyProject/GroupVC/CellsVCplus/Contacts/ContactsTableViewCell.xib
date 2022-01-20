@@ -37,43 +37,92 @@
                             <constraint firstAttribute="width" constant="50" id="egt-ma-mlk"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@skiSkateSky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYK-BY-zvQ">
-                        <rect key="frame" x="80" y="25" width="124" height="24"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.linkedin.com/in/yury-lamaka-69873622b" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwZ-QY-myY">
-                        <rect key="frame" x="80" y="85" width="219" height="11"/>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YuryLamaka" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dI-Cg-QAz">
-                        <rect key="frame" x="80" y="145" width="108" height="24"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIC-Gb-a9w">
+                        <rect key="frame" x="80" y="20" width="219" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="aXq-lc-l4M"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="@skiSkateSky">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="twitterLinkButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xNH-Dk-w9c"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar1-z9-C26">
+                        <rect key="frame" x="80" y="80" width="219" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="DgL-Ca-6Tw"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="www.linkedin.com/in/yury-lamaka-69873622b">
+                                    <attributes>
+                                        <font key="NSFont" size="16" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="linkedinLinkButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MgL-VV-HXR"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFf-PS-5M5">
+                        <rect key="frame" x="80" y="140" width="219" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="fKE-jo-HWp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="https://github.com/YuryLamaka">
+                                    <attributes>
+                                        <font key="NSFont" size="16" name="Helvetica"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="githubLinkButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qRr-U4-iO5"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="kwZ-QY-myY" firstAttribute="leading" secondItem="7D4-vw-qZS" secondAttribute="trailing" constant="20" id="5Mj-Ni-3Bg"/>
                     <constraint firstItem="o8Y-Ry-Vbz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="APJ-m8-m0N"/>
-                    <constraint firstItem="TYK-BY-zvQ" firstAttribute="leading" secondItem="o8Y-Ry-Vbz" secondAttribute="trailing" constant="20" id="DJR-vg-s2O"/>
-                    <constraint firstItem="3dI-Cg-QAz" firstAttribute="leading" secondItem="2WJ-65-Pcy" secondAttribute="trailing" constant="20" id="GJu-im-UOX"/>
+                    <constraint firstItem="SFf-PS-5M5" firstAttribute="leading" secondItem="2WJ-65-Pcy" secondAttribute="trailing" constant="20" id="Iln-sq-w30"/>
+                    <constraint firstItem="ar1-z9-C26" firstAttribute="top" secondItem="NIC-Gb-a9w" secondAttribute="bottom" constant="29" id="JCr-be-Vg3"/>
                     <constraint firstAttribute="bottom" secondItem="2WJ-65-Pcy" secondAttribute="bottom" constant="10" id="Lo9-01-pmv"/>
                     <constraint firstItem="7D4-vw-qZS" firstAttribute="top" secondItem="o8Y-Ry-Vbz" secondAttribute="bottom" constant="10" id="MhW-8i-6TE"/>
-                    <constraint firstItem="kwZ-QY-myY" firstAttribute="top" secondItem="TYK-BY-zvQ" secondAttribute="bottom" constant="36" id="NMz-NR-Izb"/>
+                    <constraint firstAttribute="trailing" secondItem="ar1-z9-C26" secondAttribute="trailing" constant="21" id="T6W-vz-io4"/>
                     <constraint firstItem="7D4-vw-qZS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="XWT-bs-Ncp"/>
-                    <constraint firstItem="TYK-BY-zvQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="tHa-Lv-zDy"/>
+                    <constraint firstItem="NIC-Gb-a9w" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="abc-ax-lUe"/>
+                    <constraint firstItem="NIC-Gb-a9w" firstAttribute="leading" secondItem="o8Y-Ry-Vbz" secondAttribute="trailing" constant="20" id="f9B-ER-yqU"/>
+                    <constraint firstAttribute="trailing" secondItem="NIC-Gb-a9w" secondAttribute="trailing" constant="21" id="fW0-Ry-xV6"/>
+                    <constraint firstAttribute="bottom" secondItem="SFf-PS-5M5" secondAttribute="bottom" constant="19" id="kGO-y0-YSF"/>
+                    <constraint firstItem="SFf-PS-5M5" firstAttribute="top" secondItem="ar1-z9-C26" secondAttribute="bottom" constant="29" id="kIY-qY-dEz"/>
+                    <constraint firstAttribute="trailing" secondItem="SFf-PS-5M5" secondAttribute="trailing" constant="21" id="mug-sK-AV0"/>
                     <constraint firstItem="2WJ-65-Pcy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tOy-WM-VC3"/>
+                    <constraint firstItem="ar1-z9-C26" firstAttribute="leading" secondItem="7D4-vw-qZS" secondAttribute="trailing" constant="20" id="tQ4-af-fTT"/>
                     <constraint firstItem="o8Y-Ry-Vbz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="tdG-t8-46Y"/>
-                    <constraint firstAttribute="bottom" secondItem="3dI-Cg-QAz" secondAttribute="bottom" constant="21" id="wWz-nF-as3"/>
                     <constraint firstItem="2WJ-65-Pcy" firstAttribute="top" secondItem="7D4-vw-qZS" secondAttribute="bottom" constant="10" id="yWb-W1-ya1"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="139" y="82"/>
+            <point key="canvasLocation" x="137.68115942028987" y="81.696428571428569"/>
         </tableViewCell>
     </objects>
     <resources>

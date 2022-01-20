@@ -144,7 +144,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VbK-TW-1kF">
-                    <rect key="frame" x="240" y="304.66666666666669" width="134" height="208.00000000000006"/>
+                    <rect key="frame" x="240" y="305" width="134" height="208"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tl-Bg-x7p">
                             <rect key="frame" x="0.0" y="0.0" width="63" height="91"/>
