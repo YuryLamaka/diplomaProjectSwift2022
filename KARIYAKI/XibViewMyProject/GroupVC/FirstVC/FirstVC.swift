@@ -12,7 +12,7 @@ class FirstVC: UIViewController {
     
     private var imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "noty-muzyka-skripichnyi-kliuch")
+        imageView.image = UIImage(named: "GitHub")
         return imageView
     } ()
 
