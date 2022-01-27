@@ -20,6 +20,7 @@ class MortalCombatViewController: UIViewController {
     
     @IBAction func playStopPartOne(_ sender: Any) {
         oneSoundOfMelody.playSoundOfMelody(melody: .mortalFirstPartMelody)
+        
     }
     
     @IBAction func playStopPartTwo(_ sender: Any) {

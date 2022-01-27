@@ -9,11 +9,49 @@ import UIKit
 import AVFoundation
 
 class FirstVC: UIViewController {
+    
+    private var imageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "noty-muzyka-skripichnyi-kliuch")
+        return imageView
+    } ()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Hello! Select position, please."
         self.navigationController?.navigationBar.tintColor = UIColor.black
+        view.addSubview(imageView)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        imageView.center = view.center
+        animationLaunch()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.animationLaunch()
+        }
+    }
+    
+    private func animationLaunch() {
+        UIView.animate(withDuration: 2) {
+            let size = self.view.frame.size.width * 4
+            let iX = self.view.frame.size.width - size
+            let iY = size - self.view.frame.size.height
+            
+            self.imageView.frame = CGRect(x: iX/2,
+                                          y: -(iY/2),
+                                          width: size,
+                                          height: size)
+            
+            
+            
+            
+            UIView.animate(withDuration: 2) {
+                self.imageView.alpha = 0
+            }
+            
+           
+        }
     }
     
     @IBAction func menuButton(_ sender: Any) {
