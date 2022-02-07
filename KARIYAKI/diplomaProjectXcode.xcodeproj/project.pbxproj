@@ -62,8 +62,6 @@
 		CB1DB61B2783822600C69723 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB6192783822600C69723 /* ContactsTableViewCell.xib */; };
 		CB1DB61E2783823C00C69723 /* LegalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DB61C2783823C00C69723 /* LegalInfoTableViewCell.swift */; };
 		CB1DB61F2783823C00C69723 /* LegalInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB61D2783823C00C69723 /* LegalInfoTableViewCell.xib */; };
-		CB1DB6232783825E00C69723 /* ProducingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DB6212783825E00C69723 /* ProducingTableViewCell.swift */; };
-		CB1DB6242783825E00C69723 /* ProducingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB6222783825E00C69723 /* ProducingTableViewCell.xib */; };
 		CB21EA852749830300F98345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EA842749830300F98345 /* AppDelegate.swift */; };
 		CB21EA872749830300F98345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EA862749830300F98345 /* SceneDelegate.swift */; };
 		CB21EA8C2749830300F98345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8A2749830300F98345 /* Main.storyboard */; };
@@ -101,8 +99,6 @@
 		CB1DB6192783822600C69723 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
 		CB1DB61C2783823C00C69723 /* LegalInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalInfoTableViewCell.swift; sourceTree = "<group>"; };
 		CB1DB61D2783823C00C69723 /* LegalInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegalInfoTableViewCell.xib; sourceTree = "<group>"; };
-		CB1DB6212783825E00C69723 /* ProducingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducingTableViewCell.swift; sourceTree = "<group>"; };
-		CB1DB6222783825E00C69723 /* ProducingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProducingTableViewCell.xib; sourceTree = "<group>"; };
 		CB21EA812749830300F98345 /* diplomaProjectXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diplomaProjectXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB21EA842749830300F98345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB21EA862749830300F98345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,8 +217,6 @@
 		CB01DDDF27823DE900DDFA93 /* Producing */ = {
 			isa = PBXGroup;
 			children = (
-				CB1DB6212783825E00C69723 /* ProducingTableViewCell.swift */,
-				CB1DB6222783825E00C69723 /* ProducingTableViewCell.xib */,
 			);
 			path = Producing;
 			sourceTree = "<group>";
@@ -523,7 +517,6 @@
 				CB1DB60827837E1B00C69723 /* gTwoDiez.m4a in Resources */,
 				CB1DB5FC27837DF600C69723 /* eFive.m4a in Resources */,
 				CB1DB5F027837DD000C69723 /* bFour.m4a in Resources */,
-				CB1DB6242783825E00C69723 /* ProducingTableViewCell.xib in Resources */,
 				CB1DB613278381F300C69723 /* InstructionTableViewCell.xib in Resources */,
 				CB1DB5F927837DEC00C69723 /* dFourDiez.m4a in Resources */,
 				CB1DB60227837E0900C69723 /* fThreeDiez.m4a in Resources */,
@@ -579,7 +572,6 @@
 				CB0A50B4277C7B320049FEB6 /* PinkPanterViewController.swift in Sources */,
 				CB21EAC0274985B100F98345 /* StarWarsVC.swift in Sources */,
 				CB0A50BA277C7B7E0049FEB6 /* MortalCombatViewController.swift in Sources */,
-				CB1DB6232783825E00C69723 /* ProducingTableViewCell.swift in Sources */,
 				CB21EAB02749855200F98345 /* GrassHopperVC.swift in Sources */,
 				CB21EAC62749860E00F98345 /* FirstVC.swift in Sources */,
 				CB1DB60F2783807300C69723 /* EnumMenu.swift in Sources */,

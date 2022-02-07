@@ -12,5 +12,4 @@ enum MenuPoint: CaseIterable {
     case shotrDescription
     case contactDeveloper
     case legalInfo
-    case producing 
 }

@@ -23,8 +23,7 @@ class CellViewController: UIViewController {
         tableView.registerCells(cells: [InstructionTableViewCell.self,
                                         ShortDescriptionTableViewCell.self,
                                         ContactsTableViewCell.self,
-                                        LegalInfoTableViewCell.self,
-                                        ProducingTableViewCell.self])
+                                        LegalInfoTableViewCell.self])
         
     }
 }
@@ -61,12 +60,6 @@ extension CellViewController: UITableViewDataSource {
             legalInfoCell.backgroundColor = .magenta
             legalInfoCell.selectionStyle = .none
             return legalInfoCell
-        case .producing:
-            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ProducingTableViewCell.self), for: indexPath)
-            guard let producingCell = cell as? ProducingTableViewCell else {return cell}
-            producingCell.backgroundColor = .cyan
-            producingCell.selectionStyle = .none
-            return producingCell
         }
     }
     
