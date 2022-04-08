@@ -27,6 +27,7 @@ class GemKingVC: UIViewController {
     }
     
     @IBAction func bThreeButton(_ sender: Any) {
+        
     }
     
     @IBAction func cFourDiezButton(_ sender: Any) {

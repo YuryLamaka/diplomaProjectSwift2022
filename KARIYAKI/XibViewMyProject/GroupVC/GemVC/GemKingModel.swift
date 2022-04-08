@@ -9,6 +9,7 @@ import Foundation
 
 protocol GemKingProtocol {
     func stopPlayMelody()
+   mutating func playNote()
 }
 
 class GemKingModel {
@@ -17,8 +18,29 @@ class GemKingModel {
 }
 
 extension GemKingModel: GemKingProtocol {
+    
     func stopPlayMelody() {
-        oneSoundOfMelody.playSoundOfMelody(melody: .grigMelody)
+          oneSoundOfMelody.playSoundOfMelody(melody: .grigMelody)
+      }
+
+    func playNote() {
+        enum  Notes {
+            case b3
+            case c4diez
+            
+          
+            
+           
+//        oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+//        oneSoundOfNote.playSoundOfOneNote(note: .cFourDiez)
+//        oneSoundOfNote.playSoundOfOneNote(note: .dFour)
+//        oneSoundOfNote.playSoundOfOneNote(note: .eFour)
+//        oneSoundOfNote.playSoundOfOneNote(note: .fFourDiez)
+//        oneSoundOfNote.playSoundOfOneNote(note: .fFour)
+//        oneSoundOfNote.playSoundOfOneNote(note: .cFour)
+//        oneSoundOfNote.playSoundOfOneNote(note: .bFour)
+//        oneSoundOfNote.playSoundOfOneNote(note: .aFour)
+        }
     }
     
 }
