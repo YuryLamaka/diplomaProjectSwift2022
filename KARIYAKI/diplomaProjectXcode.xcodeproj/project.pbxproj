@@ -81,6 +81,13 @@
 		CB21EAC72749860E00F98345 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAC52749860E00F98345 /* FirstVC.xib */; };
 		CB547B6E279356D8003DD6C2 /* SecondPartPlayerMelody.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB547B6D279356D7003DD6C2 /* SecondPartPlayerMelody.swift */; };
 		CBCCC4012784C3090003241D /* FirstPartPlayerNots.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCC4002784C3090003241D /* FirstPartPlayerNots.swift */; };
+		CBEC8D9B28008D4200791730 /* GemKingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8D9A28008D4200791730 /* GemKingModel.swift */; };
+		CBEC8D9D28008D5F00791730 /* GrassHooperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */; };
+		CBEC8D9F28008D7800791730 /* BondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8D9E28008D7800791730 /* BondModel.swift */; };
+		CBEC8DA128008D8E00791730 /* SquidGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */; };
+		CBEC8DA328008DA000791730 /* StarWarsMdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA228008DA000791730 /* StarWarsMdel.swift */; };
+		CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA428008DB200791730 /* PinkPanterModel.swift */; };
+		CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA628008DC700791730 /* MortalCombatModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +167,13 @@
 		CB5F789F2781FC96003766F2 /* grigMelody.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = grigMelody.m4a; sourceTree = "<group>"; };
 		CB5F78A027820BA5003766F2 /* squadMelody.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = squadMelody.m4a; sourceTree = "<group>"; };
 		CBCCC4002784C3090003241D /* FirstPartPlayerNots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPartPlayerNots.swift; sourceTree = "<group>"; };
+		CBEC8D9A28008D4200791730 /* GemKingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemKingModel.swift; sourceTree = "<group>"; };
+		CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassHooperModel.swift; sourceTree = "<group>"; };
+		CBEC8D9E28008D7800791730 /* BondModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondModel.swift; sourceTree = "<group>"; };
+		CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidGamesModel.swift; sourceTree = "<group>"; };
+		CBEC8DA228008DA000791730 /* StarWarsMdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsMdel.swift; sourceTree = "<group>"; };
+		CBEC8DA428008DB200791730 /* PinkPanterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkPanterModel.swift; sourceTree = "<group>"; };
+		CBEC8DA628008DC700791730 /* MortalCombatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortalCombatModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +249,7 @@
 			children = (
 				CB0A50B2277C7B320049FEB6 /* PinkPanterViewController.swift */,
 				CB0A50B3277C7B320049FEB6 /* PinkPanterViewController.xib */,
+				CBEC8DA428008DB200791730 /* PinkPanterModel.swift */,
 			);
 			path = PinkPanterVC;
 			sourceTree = "<group>";
@@ -244,6 +259,7 @@
 			children = (
 				CB0A50B8277C7B7E0049FEB6 /* MortalCombatViewController.swift */,
 				CB0A50B9277C7B7E0049FEB6 /* MortalCombatViewController.xib */,
+				CBEC8DA628008DC700791730 /* MortalCombatModel.swift */,
 			);
 			path = MortalCombatVC;
 			sourceTree = "<group>";
@@ -293,6 +309,7 @@
 			children = (
 				CB21EAA6274984EC00F98345 /* GemKingVC.swift */,
 				CB21EAA7274984EC00F98345 /* GemKingVC.xib */,
+				CBEC8D9A28008D4200791730 /* GemKingModel.swift */,
 			);
 			path = GemVC;
 			sourceTree = "<group>";
@@ -302,6 +319,7 @@
 			children = (
 				CB21EAAE2749855200F98345 /* GrassHopperVC.swift */,
 				CB21EAAF2749855200F98345 /* GrassHopperVC.xib */,
+				CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */,
 			);
 			path = GrassHopperVC;
 			sourceTree = "<group>";
@@ -311,6 +329,7 @@
 			children = (
 				CB21EAB22749856700F98345 /* BondDemoVC.swift */,
 				CB21EAB32749856700F98345 /* BondDemoVC.xib */,
+				CBEC8D9E28008D7800791730 /* BondModel.swift */,
 			);
 			path = BondVC;
 			sourceTree = "<group>";
@@ -320,6 +339,7 @@
 			children = (
 				CB21EABA2749859E00F98345 /* SquidGamesVC.swift */,
 				CB21EABB2749859E00F98345 /* SquidGamesVC.xib */,
+				CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */,
 			);
 			path = SquidGamesVC;
 			sourceTree = "<group>";
@@ -329,6 +349,7 @@
 			children = (
 				CB21EABE274985B100F98345 /* StarWarsVC.swift */,
 				CB21EABF274985B100F98345 /* StarWarsVC.xib */,
+				CBEC8DA228008DA000791730 /* StarWarsMdel.swift */,
 			);
 			path = StarWarsVC;
 			sourceTree = "<group>";
@@ -405,8 +426,8 @@
 		CBCCC4022784CC460003241D /* SoundsOfNotes */ = {
 			isa = PBXGroup;
 			children = (
-				CB5F78922781FC7E003766F2 /* aFour.m4a */,
 				CB5F78892781FC7D003766F2 /* aThree.m4a */,
+				CB5F78922781FC7E003766F2 /* aFour.m4a */,
 				CB5F788C2781FC7E003766F2 /* aFourDiez.m4a */,
 				CB5F78852781FC7D003766F2 /* aThreeDiez.m4a */,
 				CB5F78912781FC7E003766F2 /* aTwo.m4a */,
@@ -567,18 +588,25 @@
 				CB21EABC2749859E00F98345 /* SquidGamesVC.swift in Sources */,
 				CB547B6E279356D8003DD6C2 /* SecondPartPlayerMelody.swift in Sources */,
 				CBCCC4012784C3090003241D /* FirstPartPlayerNots.swift in Sources */,
+				CBEC8DA328008DA000791730 /* StarWarsMdel.swift in Sources */,
+				CBEC8DA128008D8E00791730 /* SquidGamesModel.swift in Sources */,
+				CBEC8D9B28008D4200791730 /* GemKingModel.swift in Sources */,
 				CB1DB61A2783822600C69723 /* ContactsTableViewCell.swift in Sources */,
 				CB1DB612278381F300C69723 /* InstructionTableViewCell.swift in Sources */,
 				CB0A50B4277C7B320049FEB6 /* PinkPanterViewController.swift in Sources */,
 				CB21EAC0274985B100F98345 /* StarWarsVC.swift in Sources */,
 				CB0A50BA277C7B7E0049FEB6 /* MortalCombatViewController.swift in Sources */,
 				CB21EAB02749855200F98345 /* GrassHopperVC.swift in Sources */,
+				CBEC8D9D28008D5F00791730 /* GrassHooperModel.swift in Sources */,
+				CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */,
+				CBEC8D9F28008D7800791730 /* BondModel.swift in Sources */,
 				CB21EAC62749860E00F98345 /* FirstVC.swift in Sources */,
 				CB1DB60F2783807300C69723 /* EnumMenu.swift in Sources */,
 				CB1DB60C27837F5600C69723 /* CellViewController.swift in Sources */,
 				CB1DB61E2783823C00C69723 /* LegalInfoTableViewCell.swift in Sources */,
 				CB21EA852749830300F98345 /* AppDelegate.swift in Sources */,
 				CB21EAA8274984EC00F98345 /* GemKingVC.swift in Sources */,
+				CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */,
 				CB21EA872749830300F98345 /* SceneDelegate.swift in Sources */,
 				CB1DB6162783821100C69723 /* ShortDescriptionTableViewCell.swift in Sources */,
 			);
