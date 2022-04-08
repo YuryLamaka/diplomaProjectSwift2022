@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+protocol GemKingProtocol {
+    func stopPlayMelody()
+}
+
+class GemKingModel {
+   private let oneSoundOfNote = OneSoundOfNote()
+   private let oneSoundOfMelody = OneMelodySound()
+}
+
+extension GemKingModel: GemKingProtocol {
+    func stopPlayMelody() {
+        oneSoundOfMelody.playSoundOfMelody(melody: .grigMelody)
+    }
+    
+}
