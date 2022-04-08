@@ -23,15 +23,12 @@ extension GemKingModel: GemKingProtocol {
           oneSoundOfMelody.playSoundOfMelody(melody: .grigMelody)
       }
 
+    
     func playNote() {
-        enum  Notes {
-            case b3
-            case c4diez
-            
-          
-            
-           
-//        oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+      
+        
+       
+//            oneSoundOfNote.playSoundOfOneNote(note: .bThree)
 //        oneSoundOfNote.playSoundOfOneNote(note: .cFourDiez)
 //        oneSoundOfNote.playSoundOfOneNote(note: .dFour)
 //        oneSoundOfNote.playSoundOfOneNote(note: .eFour)
@@ -41,6 +38,7 @@ extension GemKingModel: GemKingProtocol {
 //        oneSoundOfNote.playSoundOfOneNote(note: .bFour)
 //        oneSoundOfNote.playSoundOfOneNote(note: .aFour)
         }
-    }
+        }
     
-}
+    
+
