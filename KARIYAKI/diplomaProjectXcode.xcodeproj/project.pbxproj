@@ -195,7 +195,6 @@
 				CB01DDDD27823D9100DDFA93 /* ShortDescription */,
 				CB01DDDE27823DD700DDFA93 /* Contacts */,
 				CB01DDE027823DF500DDFA93 /* LegalInfo */,
-				CB01DDDF27823DE900DDFA93 /* Producing */,
 				CB1DB60E2783807300C69723 /* EnumMenu.swift */,
 			);
 			path = CellsVCplus;
@@ -228,13 +227,6 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
-		CB01DDDF27823DE900DDFA93 /* Producing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Producing;
-			sourceTree = "<group>";
-		};
 		CB01DDE027823DF500DDFA93 /* LegalInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,9 +239,9 @@
 		CB0A50B6277C7B3D0049FEB6 /* PinkPanterVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DA428008DB200791730 /* PinkPanterModel.swift */,
 				CB0A50B2277C7B320049FEB6 /* PinkPanterViewController.swift */,
 				CB0A50B3277C7B320049FEB6 /* PinkPanterViewController.xib */,
-				CBEC8DA428008DB200791730 /* PinkPanterModel.swift */,
 			);
 			path = PinkPanterVC;
 			sourceTree = "<group>";
@@ -257,9 +249,9 @@
 		CB0A50B7277C7B590049FEB6 /* MortalCombatVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DA628008DC700791730 /* MortalCombatModel.swift */,
 				CB0A50B8277C7B7E0049FEB6 /* MortalCombatViewController.swift */,
 				CB0A50B9277C7B7E0049FEB6 /* MortalCombatViewController.xib */,
-				CBEC8DA628008DC700791730 /* MortalCombatModel.swift */,
 			);
 			path = MortalCombatVC;
 			sourceTree = "<group>";
@@ -307,9 +299,9 @@
 		CB21EA99274983AD00F98345 /* GemVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8D9A28008D4200791730 /* GemKingModel.swift */,
 				CB21EAA6274984EC00F98345 /* GemKingVC.swift */,
 				CB21EAA7274984EC00F98345 /* GemKingVC.xib */,
-				CBEC8D9A28008D4200791730 /* GemKingModel.swift */,
 			);
 			path = GemVC;
 			sourceTree = "<group>";
@@ -317,9 +309,9 @@
 		CB21EA9B274983FB00F98345 /* GrassHopperVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */,
 				CB21EAAE2749855200F98345 /* GrassHopperVC.swift */,
 				CB21EAAF2749855200F98345 /* GrassHopperVC.xib */,
-				CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */,
 			);
 			path = GrassHopperVC;
 			sourceTree = "<group>";
@@ -327,9 +319,9 @@
 		CB21EA9C2749843700F98345 /* BondVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8D9E28008D7800791730 /* BondModel.swift */,
 				CB21EAB22749856700F98345 /* BondDemoVC.swift */,
 				CB21EAB32749856700F98345 /* BondDemoVC.xib */,
-				CBEC8D9E28008D7800791730 /* BondModel.swift */,
 			);
 			path = BondVC;
 			sourceTree = "<group>";
@@ -337,9 +329,9 @@
 		CB21EA9E2749847900F98345 /* SquidGamesVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */,
 				CB21EABA2749859E00F98345 /* SquidGamesVC.swift */,
 				CB21EABB2749859E00F98345 /* SquidGamesVC.xib */,
-				CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */,
 			);
 			path = SquidGamesVC;
 			sourceTree = "<group>";
@@ -347,9 +339,9 @@
 		CB21EA9F2749848C00F98345 /* StarWarsVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DA228008DA000791730 /* StarWarsMdel.swift */,
 				CB21EABE274985B100F98345 /* StarWarsVC.swift */,
 				CB21EABF274985B100F98345 /* StarWarsVC.xib */,
-				CBEC8DA228008DA000791730 /* StarWarsMdel.swift */,
 			);
 			path = StarWarsVC;
 			sourceTree = "<group>";
