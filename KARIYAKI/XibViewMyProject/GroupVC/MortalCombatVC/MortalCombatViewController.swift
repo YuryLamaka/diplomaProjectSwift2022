@@ -10,63 +10,63 @@ import AVFoundation
 
 class MortalCombatViewController: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
+    private var mortalModel: MortalProtocol!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
+    }
+    
+    func setupView() {
+        mortalModel = MortalModel()
     }
     
     @IBAction func playStopPartOne(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .mortalFirstPartMelody)
-        
+        mortalModel.playMelody(melody: .mortalFirstPartMelody)
     }
     
     @IBAction func playStopPartTwo(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .mortalSecondPartMelody)
+        mortalModel.playMelody(melody: .mortalSecondPartMelody)
     }
     
     @IBAction func playStopPartThree(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .mortalThirdPartMelody)
+        mortalModel.playMelody(melody: .mortalThirdPartMelody)
     }
     
     @IBAction func fFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .fFour)
-
+        mortalModel.playNote(note: .fFour)
     }
     
     @IBAction func gFoyrButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gFour)
+        mortalModel.playNote(note: .gFour)
     }
     
     @IBAction func aFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aFour)
+        mortalModel.playNote(note: .aFour)
     }
     
     @IBAction func bFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .bFour)
+        mortalModel.playNote(note: .bFour)
     }
     
     @IBAction func cFiveButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .cFive)
+        mortalModel.playNote(note: .cFive)
     }
     
     @IBAction func dFiveButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFive)
+        mortalModel.playNote(note: .dFive)
     }
     
     @IBAction func eFiveButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .eFive)
+        mortalModel.playNote(note: .eFive)
     }
     
     @IBAction func gFiveButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gFive)
+        mortalModel.playNote(note: .gFive)
     }
     
     @IBAction func aFourDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aFourDiez)
+        mortalModel.playNote(note: .aFourDiez)
     }
     
-
 }
