@@ -9,7 +9,7 @@ import Foundation
 
 protocol GemKingProtocol {
     func stopPlayMelody()
-   mutating func playNote()
+    func playNote(note: Notes)
 }
 
 class GemKingModel {
@@ -23,22 +23,20 @@ extension GemKingModel: GemKingProtocol {
           oneSoundOfMelody.playSoundOfMelody(melody: .grigMelody)
       }
 
-    
-    func playNote() {
-      
+    func playNote(note: Notes) {
+          oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+          oneSoundOfNote.playSoundOfOneNote(note: .cFourDiez)
+          oneSoundOfNote.playSoundOfOneNote(note: .dFour)
+          oneSoundOfNote.playSoundOfOneNote(note: .eFour)
+          oneSoundOfNote.playSoundOfOneNote(note: .fFourDiez)
+          oneSoundOfNote.playSoundOfOneNote(note: .fFour)
+          oneSoundOfNote.playSoundOfOneNote(note: .cFour)
+          oneSoundOfNote.playSoundOfOneNote(note: .bFour)
+          oneSoundOfNote.playSoundOfOneNote(note: .aFour)
+      }
+  
+    }
         
-       
-//            oneSoundOfNote.playSoundOfOneNote(note: .bThree)
-//        oneSoundOfNote.playSoundOfOneNote(note: .cFourDiez)
-//        oneSoundOfNote.playSoundOfOneNote(note: .dFour)
-//        oneSoundOfNote.playSoundOfOneNote(note: .eFour)
-//        oneSoundOfNote.playSoundOfOneNote(note: .fFourDiez)
-//        oneSoundOfNote.playSoundOfOneNote(note: .fFour)
-//        oneSoundOfNote.playSoundOfOneNote(note: .cFour)
-//        oneSoundOfNote.playSoundOfOneNote(note: .bFour)
-//        oneSoundOfNote.playSoundOfOneNote(note: .aFour)
-        }
-        }
-    
+
     
 
