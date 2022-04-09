@@ -10,55 +10,55 @@ import AVFoundation
 
 class PinkPanterViewController: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
-
-
+    private var panteraModel: PanteraProtocol!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
     }
     
+    func setupView() {
+        panteraModel = PanteraModel()
+    }
     
     @IBAction func playStopMelody(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .panteraMelody)
+        panteraModel.playMelody()
     }
     
     @IBAction func dThreeDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dThreeDiez)
+        panteraModel.playNote(note: .dThreeDiez)
     }
     
     @IBAction func eThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .eThree)
+        panteraModel.playNote(note: .eThree)
     }
     
     @IBAction func cFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .cFour)
+        panteraModel.playNote(note: .cFour)
     }
     
     @IBAction func fThreeDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .fThreeDiez)
+        panteraModel.playNote(note: .fThreeDiez)
     }
     
     @IBAction func gThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gThree)
+        panteraModel.playNote(note: .gThree)
     }
     
     @IBAction func bThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+        panteraModel.playNote(note: .bThree)
     }
     
     @IBAction func aTwoButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aTwo)
+        panteraModel.playNote(note: .aTwo)
     }
     
     @IBAction func dThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dThree)
+        panteraModel.playNote(note: .dThree)
     }
     
     @IBAction func aThreeDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aThreeDiez)
+        panteraModel.playNote(note: .aThreeDiez)
     }
     
 }
