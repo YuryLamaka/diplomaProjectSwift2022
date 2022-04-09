@@ -88,6 +88,7 @@
 		CBEC8DA328008DA000791730 /* StarWarsMdel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA228008DA000791730 /* StarWarsMdel.swift */; };
 		CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA428008DB200791730 /* PinkPanterModel.swift */; };
 		CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA628008DC700791730 /* MortalCombatModel.swift */; };
+		CBEC8DA92801F8EC00791730 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +175,7 @@
 		CBEC8DA228008DA000791730 /* StarWarsMdel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsMdel.swift; sourceTree = "<group>"; };
 		CBEC8DA428008DB200791730 /* PinkPanterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkPanterModel.swift; sourceTree = "<group>"; };
 		CBEC8DA628008DC700791730 /* MortalCombatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortalCombatModel.swift; sourceTree = "<group>"; };
+		CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +367,7 @@
 		CB21EAC3274985F200F98345 /* FirstVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */,
 				CB21EAC42749860E00F98345 /* FirstVC.swift */,
 				CB21EAC52749860E00F98345 /* FirstVC.xib */,
 			);
@@ -581,6 +584,7 @@
 				CB547B6E279356D8003DD6C2 /* SecondPartPlayerMelody.swift in Sources */,
 				CBCCC4012784C3090003241D /* FirstPartPlayerNots.swift in Sources */,
 				CBEC8DA328008DA000791730 /* StarWarsMdel.swift in Sources */,
+				CBEC8DA92801F8EC00791730 /* FirstViewModel.swift in Sources */,
 				CBEC8DA128008D8E00791730 /* SquidGamesModel.swift in Sources */,
 				CBEC8D9B28008D4200791730 /* GemKingModel.swift in Sources */,
 				CB1DB61A2783822600C69723 /* ContactsTableViewCell.swift in Sources */,
