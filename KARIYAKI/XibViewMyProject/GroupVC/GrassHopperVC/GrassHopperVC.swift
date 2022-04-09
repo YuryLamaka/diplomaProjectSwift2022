@@ -10,41 +10,45 @@ import AVFoundation
 
 class GrassHopperVC: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
-
+    private var grassHooperModel: GrassHooperProtocol!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
 
+    }
+    
+    func setupView() {
+        grassHooperModel = GrassHooperModel()
     }
     
     
     @IBAction func stopPlayPartOne(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .kooperFirstPartMelody)
+        grassHooperModel.playStopMelody(melody: .kooperFirstPartMelody)
     }
     
     @IBAction func stopPlayPartTwo(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .kooperSecondPartMelody)
+        grassHooperModel.playStopMelody(melody: .kooperSecondPartMelody)
     }
     
     @IBAction func aThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aThree)
+        grassHooperModel.playNote(note: .aThree)
     }
     
     @IBAction func eThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .eThree)
+        grassHooperModel.playNote(note: .eThree)
     }
     
     @IBAction func gThreeDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gThreeDiez)
+        grassHooperModel.playNote(note: .gTwoDiez)
     }
     
     @IBAction func bThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+        grassHooperModel.playNote(note: .bThree)
     }
     
     @IBAction func cThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .cThree)
+        grassHooperModel.playNote(note: .cThree)
     }
     
 }

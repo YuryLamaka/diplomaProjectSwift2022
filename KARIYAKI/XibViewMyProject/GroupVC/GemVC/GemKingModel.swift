@@ -24,11 +24,7 @@ extension GemKingModel: GemKingProtocol {
       }
 
     func playNote(note: Notes) {
-        
-        DispatchQueue.main.async { [self] in
             oneSoundOfNote.playSoundOfOneNote(note: note)
-        }
-
       }
   
     }
