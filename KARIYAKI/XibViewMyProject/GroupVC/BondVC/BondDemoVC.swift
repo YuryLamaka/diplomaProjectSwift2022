@@ -10,48 +10,51 @@ import AVFoundation
 
 class BondDemoVC: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
-
+    private var bondModel: BondModelProtocol!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
+    }
+    
+    func setupView() {
+        bondModel = BondModel()
     }
     
     @IBAction func playStopMelody(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .bondMelody)
+        bondModel.playMelody(melody: .bondMelody)
     }
     
     @IBAction func eThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .eThree)
+        bondModel.playNote(note: .eThree)
     }
     
     @IBAction func fThreeDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .fThreeDiez)
+        bondModel.playNote(note: .fThree)
     }
     
     @IBAction func fThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .fThree)
+        bondModel.playNote(note: .fThree)
     }
     
     @IBAction func gThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gThree)
+        bondModel.playNote(note: .gThree)
     }
     
     @IBAction func dFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFour)
+        bondModel.playNote(note: .dFour)
     }
     
     @IBAction func aThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aThree)
+        bondModel.playNote(note: .aThree)
     }
     
     @IBAction func dFourDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFourDiez)
+        bondModel.playNote(note: .dFourDiez)
     }
     
     @IBAction func bThreeButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .bThree)
+        bondModel.playNote(note: .bThree)
     }
     
 

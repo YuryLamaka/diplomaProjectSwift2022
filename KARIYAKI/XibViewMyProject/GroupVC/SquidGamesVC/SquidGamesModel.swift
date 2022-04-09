@@ -6,3 +6,26 @@
 //
 
 import Foundation
+
+protocol SquidModelProtocol {
+    func playMelody(melody: Melody)
+    func playNote(note: Notes)
+}
+
+class SquidModel {
+    let oneSoundOfNote = OneSoundOfNote()
+    let oneSoundOfMelody = OneMelodySound()
+}
+
+
+extension SquidModel: SquidModelProtocol {
+    func playNote(note: Notes) {
+        oneSoundOfNote.playSoundOfOneNote(note: note)
+    }
+    
+    func playMelody(melody: Melody) {
+        oneSoundOfMelody.playSoundOfMelody(melody: .squadMelody)
+    }
+    
+    
+}

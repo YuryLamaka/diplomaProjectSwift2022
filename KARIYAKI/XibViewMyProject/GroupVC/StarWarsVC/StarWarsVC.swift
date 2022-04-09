@@ -10,41 +10,44 @@ import AVFoundation
 
 class StarWarsVC: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
+    private var starWarsModel: StarWarsProtocol!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
+    }
+    
+    func setupView() {
+        starWarsModel = StarWarsModel()
     }
 
     @IBAction func playStopStarWarsMelody(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .starWarsMelody)
+        starWarsModel.playMelody(melody: .starWarsMelody)
     }
     
     @IBAction func gFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gFour)
+        starWarsModel.playNote(note: .gFour)
     }
     
     @IBAction func dFourDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFourDiez)
+        starWarsModel.playNote(note: .dFourDiez)
     }
     
     
     @IBAction func dFiveButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFive)
+        starWarsModel.playNote(note: .dFive)
     }
     
     @IBAction func dFiveDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFiveDiez)
+        starWarsModel.playNote(note: .dFiveDiez)
     }
     
     @IBAction func fFourDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .fFourDiez)
+        starWarsModel.playNote(note: .fFourDiez)
     }
     
     @IBAction func aFourDiez(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aFourDiez)
+        starWarsModel.playNote(note: .aFourDiez)
     }
     
 }

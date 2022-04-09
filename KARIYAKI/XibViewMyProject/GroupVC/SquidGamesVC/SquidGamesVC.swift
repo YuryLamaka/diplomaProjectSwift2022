@@ -10,36 +10,39 @@ import AVFoundation
 
 class SquidGamesVC: UIViewController {
     
-    let oneSoundOfNote = OneSoundOfNote()
-    let oneSoundOfMelody = OneMelodySound()
+    private var squadModel: SquidModelProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupView()
+    }
+    
+    func setupView() {
+        squadModel = SquidModel()
     }
 
     @IBAction func stopPlaySquadMelody(_ sender: Any) {
-        oneSoundOfMelody.playSoundOfMelody(melody: .squadMelody)
+        squadModel.playMelody(melody: .squadMelody)
     }
     
     @IBAction func eFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .eFour)
+        squadModel.playNote(note: .eFour)
     }
     
     @IBAction func dFiveDiezButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .dFiveDiez)
+        squadModel.playNote(note: .dFiveDiez)
     }
     
     @IBAction func gFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .gFour)
+        squadModel.playNote(note: .gFour)
     }
     
     @IBAction func aFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .aFour)
+        squadModel.playNote(note: .aFour)
     }
     
     @IBAction func bFourButton(_ sender: Any) {
-        oneSoundOfNote.playSoundOfOneNote(note: .bFour)
+        squadModel.playNote(note: .bFour)
     }
     
 }
