@@ -63,7 +63,6 @@
 		CB1DB61E2783823C00C69723 /* LegalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1DB61C2783823C00C69723 /* LegalInfoTableViewCell.swift */; };
 		CB1DB61F2783823C00C69723 /* LegalInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1DB61D2783823C00C69723 /* LegalInfoTableViewCell.xib */; };
 		CB21EA852749830300F98345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EA842749830300F98345 /* AppDelegate.swift */; };
-		CB21EA872749830300F98345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EA862749830300F98345 /* SceneDelegate.swift */; };
 		CB21EA8C2749830300F98345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8A2749830300F98345 /* Main.storyboard */; };
 		CB21EA8E2749830500F98345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8D2749830500F98345 /* Assets.xcassets */; };
 		CB21EA912749830500F98345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8F2749830500F98345 /* LaunchScreen.storyboard */; };
@@ -89,6 +88,8 @@
 		CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA428008DB200791730 /* PinkPanterModel.swift */; };
 		CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA628008DC700791730 /* MortalCombatModel.swift */; };
 		CBEC8DA92801F8EC00791730 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */; };
+		CBEC8DAC28043DDD00791730 /* CoordinatorMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */; };
+		CBEC8DAE28043DEF00791730 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8DAD28043DEF00791730 /* CoordinatorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,7 +110,6 @@
 		CB1DB61D2783823C00C69723 /* LegalInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegalInfoTableViewCell.xib; sourceTree = "<group>"; };
 		CB21EA812749830300F98345 /* diplomaProjectXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diplomaProjectXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB21EA842749830300F98345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB21EA862749830300F98345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB21EA8B2749830300F98345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB21EA8D2749830500F98345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB21EA902749830500F98345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -176,6 +176,8 @@
 		CBEC8DA428008DB200791730 /* PinkPanterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkPanterModel.swift; sourceTree = "<group>"; };
 		CBEC8DA628008DC700791730 /* MortalCombatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortalCombatModel.swift; sourceTree = "<group>"; };
 		CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorMain.swift; sourceTree = "<group>"; };
+		CBEC8DAD28043DEF00791730 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,7 +292,6 @@
 				CB21EAC2274985C200F98345 /* GroupVC */,
 				CB21EA8A2749830300F98345 /* Main.storyboard */,
 				CB21EA842749830300F98345 /* AppDelegate.swift */,
-				CB21EA862749830300F98345 /* SceneDelegate.swift */,
 				CB21EA8D2749830500F98345 /* Assets.xcassets */,
 				CB21EA8F2749830500F98345 /* LaunchScreen.storyboard */,
 				CB21EA922749830600F98345 /* Info.plist */,
@@ -351,6 +352,7 @@
 		CB21EAC2274985C200F98345 /* GroupVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC8DAA2804353700791730 /* AppCoordinator */,
 				CB01DDDB27823D3800DDFA93 /* CellsVCplus */,
 				CB21EAC3274985F200F98345 /* FirstVC */,
 				CB0A50B7277C7B590049FEB6 /* MortalCombatVC */,
@@ -453,6 +455,15 @@
 				CB5F787A2781FC7D003766F2 /* gTwoDiez.m4a */,
 			);
 			path = SoundsOfNotes;
+			sourceTree = "<group>";
+		};
+		CBEC8DAA2804353700791730 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */,
+				CBEC8DAD28043DEF00791730 /* CoordinatorProtocol.swift */,
+			);
+			path = AppCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,6 +604,7 @@
 				CB21EAC0274985B100F98345 /* StarWarsVC.swift in Sources */,
 				CB0A50BA277C7B7E0049FEB6 /* MortalCombatViewController.swift in Sources */,
 				CB21EAB02749855200F98345 /* GrassHopperVC.swift in Sources */,
+				CBEC8DAE28043DEF00791730 /* CoordinatorProtocol.swift in Sources */,
 				CBEC8D9D28008D5F00791730 /* GrassHooperModel.swift in Sources */,
 				CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */,
 				CBEC8D9F28008D7800791730 /* BondModel.swift in Sources */,
@@ -602,8 +614,8 @@
 				CB1DB61E2783823C00C69723 /* LegalInfoTableViewCell.swift in Sources */,
 				CB21EA852749830300F98345 /* AppDelegate.swift in Sources */,
 				CB21EAA8274984EC00F98345 /* GemKingVC.swift in Sources */,
+				CBEC8DAC28043DDD00791730 /* CoordinatorMain.swift in Sources */,
 				CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */,
-				CB21EA872749830300F98345 /* SceneDelegate.swift in Sources */,
 				CB1DB6162783821100C69723 /* ShortDescriptionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

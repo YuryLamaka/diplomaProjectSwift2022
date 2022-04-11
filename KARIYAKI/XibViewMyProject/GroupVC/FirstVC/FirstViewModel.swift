@@ -6,17 +6,6 @@
 //
 
 import Foundation
-
-protocol FirstViewProtocol {
-    
-}
-
-class FirstViewModel {
-    
-}
-
-extension FirstViewModel: FirstViewProtocol {
-    
-}
+import UIKit
 
 

@@ -9,7 +9,6 @@ import UIKit
 
 class FirstVC: UIViewController {
     
-    private var firstViewModel: FirstViewProtocol!
     
     private var imageView: UIImageView = {
         let imageView = UIImageView()
@@ -22,12 +21,9 @@ class FirstVC: UIViewController {
         title = "Hello! Select position, please."
         self.navigationController?.navigationBar.tintColor = UIColor.black
         view.addSubview(imageView)
-        setupView()
     }
     
-    func setupView() {
-        firstViewModel = FirstViewModel()
-    }
+   
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
