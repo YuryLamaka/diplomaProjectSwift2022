@@ -10,6 +10,8 @@ import AVFoundation
 
 class GrassHopperViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var grassHooperModel: GrassHooperProtocol!
     
     override func viewDidLoad() {

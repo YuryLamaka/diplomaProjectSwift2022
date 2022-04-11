@@ -10,6 +10,8 @@ import AVFoundation
 
 class MortalCombatViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var mortalModel: MortalProtocol!
 
     override func viewDidLoad() {

@@ -10,6 +10,8 @@ import AVFoundation
 
 class BondViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var bondModel: BondModelProtocol!
   
     override func viewDidLoad() {

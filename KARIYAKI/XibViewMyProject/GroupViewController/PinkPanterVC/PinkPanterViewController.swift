@@ -10,6 +10,8 @@ import AVFoundation
 
 class PinkPanterViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var panteraModel: PanteraProtocol!
 
     override func viewDidLoad() {

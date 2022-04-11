@@ -11,7 +11,6 @@ class FirstViewController: UIViewController {
     
     weak var coordinator: AppCoordinator?
     
-    
     private var imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "GitHub")
@@ -59,44 +58,36 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func menuButton(_ sender: Any) {
-        let menuVC = CellViewController(nibName: String(describing: CellViewController.self), bundle: nil)
-        navigationController?.pushViewController(menuVC, animated: true)
+        coordinator?.openMenuViewController()
     }
     
     
     @IBAction func mortalCombatButton(_ sender: Any) {
-        let mortalCombatVC = MortalCombatViewController(nibName: String(describing: MortalCombatViewController.self), bundle: nil)
-        navigationController?.pushViewController(mortalCombatVC, animated: true)
+        coordinator?.openMortalViewController()
     }
     
     @IBAction func pinkPanterButton(_ sender: Any) {
-        let pinkPanterVC = PinkPanterViewController(nibName: String(describing: PinkPanterViewController.self), bundle: nil)
-        navigationController?.pushViewController(pinkPanterVC, animated: true)
+        coordinator?.openPanteraViewController()
     }
     
     @IBAction func starWarsButton(_ sender: Any) {
-        let starWarsVC = StarWarsViewController(nibName: String(describing: StarWarsViewController.self), bundle: nil)
-        navigationController?.pushViewController(starWarsVC, animated: true)
+        coordinator?.openStarViewController()
     }
     
     @IBAction func squadGamesButton(_ sender: Any) {
-        let squidGamesVC = SquidViewController(nibName: String(describing: SquidViewController.self), bundle: nil)
-        navigationController?.pushViewController(squidGamesVC, animated: true)
+        coordinator?.openSquidViewController()
     }
     
     @IBAction func  bondDemoButton(_ sender: Any) {
-        let bondDemoVC = BondViewController(nibName: String(describing: BondViewController.self), bundle: nil)
-        navigationController?.pushViewController(bondDemoVC, animated: true)
+        coordinator?.openBondViewController()
     }
     
     @IBAction func grassHopperButton(_ sender: Any) {
-        let grassHopperVC = GrassHopperViewController(nibName: String(describing: GrassHopperViewController.self), bundle: nil)
-        navigationController?.pushViewController(grassHopperVC, animated: true)
+        coordinator?.openGrassViewController()
     }
     
     @IBAction func gemKingButton(_ sender: Any) {
-        let gemKingVC = GemKingViewController(nibName: String(describing: GemKingViewController.self), bundle: nil)
-        navigationController?.pushViewController(gemKingVC, animated: true)
+        coordinator?.openGemViewController()
     }
     
 }

@@ -8,6 +8,8 @@
 import UIKit
 
 class CellViewController: UIViewController {
+    
+    weak var coordinator: AppCoordinator?
   
     @IBOutlet weak var tableView: UITableView!
     

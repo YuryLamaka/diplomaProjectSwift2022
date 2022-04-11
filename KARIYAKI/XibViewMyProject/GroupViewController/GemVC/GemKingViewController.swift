@@ -10,6 +10,8 @@ import AVFoundation
 
 class GemKingViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var gemKingModel: GemKingProtocol!
 
     override func viewDidLoad() {

@@ -10,6 +10,8 @@ import AVFoundation
 
 class StarWarsViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var starWarsModel: StarWarsProtocol!
 
     override func viewDidLoad() {

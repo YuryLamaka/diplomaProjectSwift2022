@@ -10,6 +10,8 @@ import AVFoundation
 
 class SquidViewController: UIViewController {
     
+    weak var coordinator: AppCoordinator?
+    
     private var squadModel: SquidModelProtocol!
     
     override func viewDidLoad() {
