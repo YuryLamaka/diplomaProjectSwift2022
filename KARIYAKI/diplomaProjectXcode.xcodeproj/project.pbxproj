@@ -289,7 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				CB21EAC82749925600F98345 /* Music */,
-				CB21EAC2274985C200F98345 /* GroupVC */,
+				CB21EAC2274985C200F98345 /* GroupViewController */,
 				CB21EA8A2749830300F98345 /* Main.storyboard */,
 				CB21EA8D2749830500F98345 /* Assets.xcassets */,
 				CB21EA8F2749830500F98345 /* LaunchScreen.storyboard */,
@@ -348,7 +348,7 @@
 			path = StarWarsVC;
 			sourceTree = "<group>";
 		};
-		CB21EAC2274985C200F98345 /* GroupVC */ = {
+		CB21EAC2274985C200F98345 /* GroupViewController */ = {
 			isa = PBXGroup;
 			children = (
 				CBEC8DAA2804353700791730 /* AppCoordinator */,
@@ -362,7 +362,7 @@
 				CB21EA9B274983FB00F98345 /* GrassHopperVC */,
 				CB21EA99274983AD00F98345 /* GemVC */,
 			);
-			path = GroupVC;
+			path = GroupViewController;
 			sourceTree = "<group>";
 		};
 		CB21EAC3274985F200F98345 /* FirstVC */ = {
@@ -460,8 +460,8 @@
 			children = (
 				CBEC8DAD28043DEF00791730 /* CoordinatorProtocol.swift */,
 				CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */,
-				CB21EA842749830300F98345 /* AppDelegate.swift */,
 				CBEC8DB128048BA000791730 /* SceneDelegate.swift */,
+				CB21EA842749830300F98345 /* AppDelegate.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
