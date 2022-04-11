@@ -24,8 +24,6 @@ class FirstViewController: UIViewController {
         view.addSubview(imageView)
     }
     
-   
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         imageView.center = view.center
@@ -46,14 +44,9 @@ class FirstViewController: UIViewController {
                                           width: size,
                                           height: size)
             
-            
-            
-            
             UIView.animate(withDuration: 2) {
                 self.imageView.alpha = 0
             }
-            
-           
         }
     }
     
