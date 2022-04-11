@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class StarWarsVC: UIViewController {
+class StarWarsViewController: UIViewController {
     
     private var starWarsModel: StarWarsProtocol!
 

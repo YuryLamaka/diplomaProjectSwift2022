@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class SquidGamesVC: UIViewController {
+class SquidViewController: UIViewController {
     
     private var squadModel: SquidModelProtocol!
     

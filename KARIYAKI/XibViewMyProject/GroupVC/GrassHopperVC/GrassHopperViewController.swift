@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class GrassHopperVC: UIViewController {
+class GrassHopperViewController: UIViewController {
     
     private var grassHooperModel: GrassHooperProtocol!
     

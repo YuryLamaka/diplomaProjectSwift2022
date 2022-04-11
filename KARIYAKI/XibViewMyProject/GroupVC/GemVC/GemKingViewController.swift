@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class GemKingVC: UIViewController {
+class GemKingViewController: UIViewController {
     
     private var gemKingModel: GemKingProtocol!
 

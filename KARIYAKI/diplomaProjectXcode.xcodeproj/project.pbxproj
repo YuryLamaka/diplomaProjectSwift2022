@@ -66,18 +66,18 @@
 		CB21EA8C2749830300F98345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8A2749830300F98345 /* Main.storyboard */; };
 		CB21EA8E2749830500F98345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8D2749830500F98345 /* Assets.xcassets */; };
 		CB21EA912749830500F98345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB21EA8F2749830500F98345 /* LaunchScreen.storyboard */; };
-		CB21EAA8274984EC00F98345 /* GemKingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAA6274984EC00F98345 /* GemKingVC.swift */; };
-		CB21EAA9274984EC00F98345 /* GemKingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAA7274984EC00F98345 /* GemKingVC.xib */; };
-		CB21EAB02749855200F98345 /* GrassHopperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAAE2749855200F98345 /* GrassHopperVC.swift */; };
-		CB21EAB12749855200F98345 /* GrassHopperVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAAF2749855200F98345 /* GrassHopperVC.xib */; };
-		CB21EAB42749856700F98345 /* BondDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAB22749856700F98345 /* BondDemoVC.swift */; };
-		CB21EAB52749856700F98345 /* BondDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAB32749856700F98345 /* BondDemoVC.xib */; };
-		CB21EABC2749859E00F98345 /* SquidGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EABA2749859E00F98345 /* SquidGamesVC.swift */; };
-		CB21EABD2749859E00F98345 /* SquidGamesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EABB2749859E00F98345 /* SquidGamesVC.xib */; };
-		CB21EAC0274985B100F98345 /* StarWarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EABE274985B100F98345 /* StarWarsVC.swift */; };
-		CB21EAC1274985B100F98345 /* StarWarsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EABF274985B100F98345 /* StarWarsVC.xib */; };
-		CB21EAC62749860E00F98345 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAC42749860E00F98345 /* FirstVC.swift */; };
-		CB21EAC72749860E00F98345 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAC52749860E00F98345 /* FirstVC.xib */; };
+		CB21EAA8274984EC00F98345 /* GemKingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAA6274984EC00F98345 /* GemKingViewController.swift */; };
+		CB21EAA9274984EC00F98345 /* GemKingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAA7274984EC00F98345 /* GemKingViewController.xib */; };
+		CB21EAB02749855200F98345 /* GrassHopperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAAE2749855200F98345 /* GrassHopperViewController.swift */; };
+		CB21EAB12749855200F98345 /* GrassHopperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAAF2749855200F98345 /* GrassHopperViewController.xib */; };
+		CB21EAB42749856700F98345 /* BondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAB22749856700F98345 /* BondViewController.swift */; };
+		CB21EAB52749856700F98345 /* BondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAB32749856700F98345 /* BondViewController.xib */; };
+		CB21EABC2749859E00F98345 /* SquidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EABA2749859E00F98345 /* SquidViewController.swift */; };
+		CB21EABD2749859E00F98345 /* SquidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EABB2749859E00F98345 /* SquidViewController.xib */; };
+		CB21EAC0274985B100F98345 /* StarWarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EABE274985B100F98345 /* StarWarsViewController.swift */; };
+		CB21EAC1274985B100F98345 /* StarWarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EABF274985B100F98345 /* StarWarsViewController.xib */; };
+		CB21EAC62749860E00F98345 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB21EAC42749860E00F98345 /* FirstViewController.swift */; };
+		CB21EAC72749860E00F98345 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21EAC52749860E00F98345 /* FirstViewController.xib */; };
 		CB547B6E279356D8003DD6C2 /* SecondPartPlayerMelody.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB547B6D279356D7003DD6C2 /* SecondPartPlayerMelody.swift */; };
 		CBCCC4012784C3090003241D /* FirstPartPlayerNots.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCC4002784C3090003241D /* FirstPartPlayerNots.swift */; };
 		CBEC8D9B28008D4200791730 /* GemKingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC8D9A28008D4200791730 /* GemKingModel.swift */; };
@@ -114,18 +114,18 @@
 		CB21EA8D2749830500F98345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB21EA902749830500F98345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB21EA922749830600F98345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB21EAA6274984EC00F98345 /* GemKingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemKingVC.swift; sourceTree = "<group>"; };
-		CB21EAA7274984EC00F98345 /* GemKingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GemKingVC.xib; sourceTree = "<group>"; };
-		CB21EAAE2749855200F98345 /* GrassHopperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassHopperVC.swift; sourceTree = "<group>"; };
-		CB21EAAF2749855200F98345 /* GrassHopperVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrassHopperVC.xib; sourceTree = "<group>"; };
-		CB21EAB22749856700F98345 /* BondDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondDemoVC.swift; sourceTree = "<group>"; };
-		CB21EAB32749856700F98345 /* BondDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BondDemoVC.xib; sourceTree = "<group>"; };
-		CB21EABA2749859E00F98345 /* SquidGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidGamesVC.swift; sourceTree = "<group>"; };
-		CB21EABB2749859E00F98345 /* SquidGamesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquidGamesVC.xib; sourceTree = "<group>"; };
-		CB21EABE274985B100F98345 /* StarWarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVC.swift; sourceTree = "<group>"; };
-		CB21EABF274985B100F98345 /* StarWarsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarWarsVC.xib; sourceTree = "<group>"; };
-		CB21EAC42749860E00F98345 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
-		CB21EAC52749860E00F98345 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
+		CB21EAA6274984EC00F98345 /* GemKingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemKingViewController.swift; sourceTree = "<group>"; };
+		CB21EAA7274984EC00F98345 /* GemKingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GemKingViewController.xib; sourceTree = "<group>"; };
+		CB21EAAE2749855200F98345 /* GrassHopperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassHopperViewController.swift; sourceTree = "<group>"; };
+		CB21EAAF2749855200F98345 /* GrassHopperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrassHopperViewController.xib; sourceTree = "<group>"; };
+		CB21EAB22749856700F98345 /* BondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondViewController.swift; sourceTree = "<group>"; };
+		CB21EAB32749856700F98345 /* BondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BondViewController.xib; sourceTree = "<group>"; };
+		CB21EABA2749859E00F98345 /* SquidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidViewController.swift; sourceTree = "<group>"; };
+		CB21EABB2749859E00F98345 /* SquidViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquidViewController.xib; sourceTree = "<group>"; };
+		CB21EABE274985B100F98345 /* StarWarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewController.swift; sourceTree = "<group>"; };
+		CB21EABF274985B100F98345 /* StarWarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarWarsViewController.xib; sourceTree = "<group>"; };
+		CB21EAC42749860E00F98345 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB21EAC52749860E00F98345 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		CB547B6D279356D7003DD6C2 /* SecondPartPlayerMelody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPartPlayerMelody.swift; sourceTree = "<group>"; };
 		CB5F78792781FC7D003766F2 /* fThreeDiez.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fThreeDiez.m4a; sourceTree = "<group>"; };
 		CB5F787A2781FC7D003766F2 /* gTwoDiez.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gTwoDiez.m4a; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB01DDDB27823D3800DDFA93 /* CellsVCplus */ = {
+		CB01DDDB27823D3800DDFA93 /* CellsViewController */ = {
 			isa = PBXGroup;
 			children = (
 				CB1DB60927837F2700C69723 /* CellViewController */,
@@ -201,7 +201,7 @@
 				CB01DDE027823DF500DDFA93 /* LegalInfo */,
 				CB1DB60E2783807300C69723 /* EnumMenu.swift */,
 			);
-			path = CellsVCplus;
+			path = CellsViewController;
 			sourceTree = "<group>";
 		};
 		CB01DDDC27823D7B00DDFA93 /* InstructionCell */ = {
@@ -291,7 +291,6 @@
 				CB21EAC82749925600F98345 /* Music */,
 				CB21EAC2274985C200F98345 /* GroupVC */,
 				CB21EA8A2749830300F98345 /* Main.storyboard */,
-				CB21EA842749830300F98345 /* AppDelegate.swift */,
 				CB21EA8D2749830500F98345 /* Assets.xcassets */,
 				CB21EA8F2749830500F98345 /* LaunchScreen.storyboard */,
 				CB21EA922749830600F98345 /* Info.plist */,
@@ -303,8 +302,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8D9A28008D4200791730 /* GemKingModel.swift */,
-				CB21EAA6274984EC00F98345 /* GemKingVC.swift */,
-				CB21EAA7274984EC00F98345 /* GemKingVC.xib */,
+				CB21EAA6274984EC00F98345 /* GemKingViewController.swift */,
+				CB21EAA7274984EC00F98345 /* GemKingViewController.xib */,
 			);
 			path = GemVC;
 			sourceTree = "<group>";
@@ -313,8 +312,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8D9C28008D5F00791730 /* GrassHooperModel.swift */,
-				CB21EAAE2749855200F98345 /* GrassHopperVC.swift */,
-				CB21EAAF2749855200F98345 /* GrassHopperVC.xib */,
+				CB21EAAE2749855200F98345 /* GrassHopperViewController.swift */,
+				CB21EAAF2749855200F98345 /* GrassHopperViewController.xib */,
 			);
 			path = GrassHopperVC;
 			sourceTree = "<group>";
@@ -323,8 +322,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8D9E28008D7800791730 /* BondModel.swift */,
-				CB21EAB22749856700F98345 /* BondDemoVC.swift */,
-				CB21EAB32749856700F98345 /* BondDemoVC.xib */,
+				CB21EAB22749856700F98345 /* BondViewController.swift */,
+				CB21EAB32749856700F98345 /* BondViewController.xib */,
 			);
 			path = BondVC;
 			sourceTree = "<group>";
@@ -333,8 +332,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8DA028008D8E00791730 /* SquidGamesModel.swift */,
-				CB21EABA2749859E00F98345 /* SquidGamesVC.swift */,
-				CB21EABB2749859E00F98345 /* SquidGamesVC.xib */,
+				CB21EABA2749859E00F98345 /* SquidViewController.swift */,
+				CB21EABB2749859E00F98345 /* SquidViewController.xib */,
 			);
 			path = SquidGamesVC;
 			sourceTree = "<group>";
@@ -343,8 +342,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8DA228008DA000791730 /* StarWarsMdel.swift */,
-				CB21EABE274985B100F98345 /* StarWarsVC.swift */,
-				CB21EABF274985B100F98345 /* StarWarsVC.xib */,
+				CB21EABE274985B100F98345 /* StarWarsViewController.swift */,
+				CB21EABF274985B100F98345 /* StarWarsViewController.xib */,
 			);
 			path = StarWarsVC;
 			sourceTree = "<group>";
@@ -353,7 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8DAA2804353700791730 /* AppCoordinator */,
-				CB01DDDB27823D3800DDFA93 /* CellsVCplus */,
+				CB01DDDB27823D3800DDFA93 /* CellsViewController */,
 				CB21EAC3274985F200F98345 /* FirstVC */,
 				CB0A50B7277C7B590049FEB6 /* MortalCombatVC */,
 				CB0A50B6277C7B3D0049FEB6 /* PinkPanterVC */,
@@ -370,8 +369,8 @@
 			isa = PBXGroup;
 			children = (
 				CBEC8DA82801F8EC00791730 /* FirstViewModel.swift */,
-				CB21EAC42749860E00F98345 /* FirstVC.swift */,
-				CB21EAC52749860E00F98345 /* FirstVC.xib */,
+				CB21EAC42749860E00F98345 /* FirstViewController.swift */,
+				CB21EAC52749860E00F98345 /* FirstViewController.xib */,
 			);
 			path = FirstVC;
 			sourceTree = "<group>";
@@ -460,8 +459,9 @@
 		CBEC8DAA2804353700791730 /* AppCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */,
 				CBEC8DAD28043DEF00791730 /* CoordinatorProtocol.swift */,
+				CBEC8DAB28043DDD00791730 /* CoordinatorMain.swift */,
+				CB21EA842749830300F98345 /* AppDelegate.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -531,7 +531,7 @@
 				CB1DB5E327837D9800C69723 /* grigMelody.m4a in Resources */,
 				CB1DB5F827837DE900C69723 /* dFour.m4a in Resources */,
 				CB1DB5EB27837DC000C69723 /* aFour.m4a in Resources */,
-				CB21EAC1274985B100F98345 /* StarWarsVC.xib in Resources */,
+				CB21EAC1274985B100F98345 /* StarWarsViewController.xib in Resources */,
 				CB21EA912749830500F98345 /* LaunchScreen.storyboard in Resources */,
 				CB1DB5EE27837DCA00C69723 /* aThreeDiez.m4a in Resources */,
 				CB1DB5F427837DDD00C69723 /* cFourDiez.m4a in Resources */,
@@ -548,18 +548,18 @@
 				CB1DB5F927837DEC00C69723 /* dFourDiez.m4a in Resources */,
 				CB1DB60227837E0900C69723 /* fThreeDiez.m4a in Resources */,
 				CB0A50BB277C7B7E0049FEB6 /* MortalCombatViewController.xib in Resources */,
-				CB21EAB12749855200F98345 /* GrassHopperVC.xib in Resources */,
+				CB21EAB12749855200F98345 /* GrassHopperViewController.xib in Resources */,
 				CB1DB5E627837DA100C69723 /* mortalPartOne.m4a in Resources */,
 				CB1DB5F127837DD300C69723 /* bThree.m4a in Resources */,
-				CB21EAA9274984EC00F98345 /* GemKingVC.xib in Resources */,
+				CB21EAA9274984EC00F98345 /* GemKingViewController.xib in Resources */,
 				CB1DB60427837E1000C69723 /* gFive.m4a in Resources */,
 				CB1DB5FF27837DFF00C69723 /* fFour.m4a in Resources */,
 				CB1DB5E727837DA500C69723 /* mortalPartThree.m4a in Resources */,
-				CB21EABD2749859E00F98345 /* SquidGamesVC.xib in Resources */,
+				CB21EABD2749859E00F98345 /* SquidViewController.xib in Resources */,
 				CB1DB5E827837DA800C69723 /* mortalPartTwo.m4a in Resources */,
 				CB1DB60727837E1800C69723 /* gThreeDiez.m4a in Resources */,
 				CB1DB5E427837D9B00C69723 /* kooperPartOne.m4a in Resources */,
-				CB21EAC72749860E00F98345 /* FirstVC.xib in Resources */,
+				CB21EAC72749860E00F98345 /* FirstViewController.xib in Resources */,
 				CB1DB61B2783822600C69723 /* ContactsTableViewCell.xib in Resources */,
 				CB1DB5FD27837DF900C69723 /* eFour.m4a in Resources */,
 				CB1DB5F227837DD600C69723 /* cFive.m4a in Resources */,
@@ -568,7 +568,7 @@
 				CB1DB5FA27837DF000C69723 /* dThree.m4a in Resources */,
 				CB1DB6172783821100C69723 /* ShortDescriptionTableViewCell.xib in Resources */,
 				CB1DB60127837E0600C69723 /* fThree.m4a in Resources */,
-				CB21EAB52749856700F98345 /* BondDemoVC.xib in Resources */,
+				CB21EAB52749856700F98345 /* BondViewController.xib in Resources */,
 				CB1DB5E927837DAB00C69723 /* panteraMelody.m4a in Resources */,
 				CB1DB60327837E0C00C69723 /* fTwo.m4a in Resources */,
 				CB1DB60D27837F5600C69723 /* CellViewController.xib in Resources */,
@@ -590,8 +590,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB21EAB42749856700F98345 /* BondDemoVC.swift in Sources */,
-				CB21EABC2749859E00F98345 /* SquidGamesVC.swift in Sources */,
+				CB21EAB42749856700F98345 /* BondViewController.swift in Sources */,
+				CB21EABC2749859E00F98345 /* SquidViewController.swift in Sources */,
 				CB547B6E279356D8003DD6C2 /* SecondPartPlayerMelody.swift in Sources */,
 				CBCCC4012784C3090003241D /* FirstPartPlayerNots.swift in Sources */,
 				CBEC8DA328008DA000791730 /* StarWarsMdel.swift in Sources */,
@@ -601,19 +601,19 @@
 				CB1DB61A2783822600C69723 /* ContactsTableViewCell.swift in Sources */,
 				CB1DB612278381F300C69723 /* InstructionTableViewCell.swift in Sources */,
 				CB0A50B4277C7B320049FEB6 /* PinkPanterViewController.swift in Sources */,
-				CB21EAC0274985B100F98345 /* StarWarsVC.swift in Sources */,
+				CB21EAC0274985B100F98345 /* StarWarsViewController.swift in Sources */,
 				CB0A50BA277C7B7E0049FEB6 /* MortalCombatViewController.swift in Sources */,
-				CB21EAB02749855200F98345 /* GrassHopperVC.swift in Sources */,
+				CB21EAB02749855200F98345 /* GrassHopperViewController.swift in Sources */,
 				CBEC8DAE28043DEF00791730 /* CoordinatorProtocol.swift in Sources */,
 				CBEC8D9D28008D5F00791730 /* GrassHooperModel.swift in Sources */,
 				CBEC8DA728008DC700791730 /* MortalCombatModel.swift in Sources */,
 				CBEC8D9F28008D7800791730 /* BondModel.swift in Sources */,
-				CB21EAC62749860E00F98345 /* FirstVC.swift in Sources */,
+				CB21EAC62749860E00F98345 /* FirstViewController.swift in Sources */,
 				CB1DB60F2783807300C69723 /* EnumMenu.swift in Sources */,
 				CB1DB60C27837F5600C69723 /* CellViewController.swift in Sources */,
 				CB1DB61E2783823C00C69723 /* LegalInfoTableViewCell.swift in Sources */,
 				CB21EA852749830300F98345 /* AppDelegate.swift in Sources */,
-				CB21EAA8274984EC00F98345 /* GemKingVC.swift in Sources */,
+				CB21EAA8274984EC00F98345 /* GemKingViewController.swift in Sources */,
 				CBEC8DAC28043DDD00791730 /* CoordinatorMain.swift in Sources */,
 				CBEC8DA528008DB200791730 /* PinkPanterModel.swift in Sources */,
 				CB1DB6162783821100C69723 /* ShortDescriptionTableViewCell.swift in Sources */,
@@ -771,7 +771,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = diplomaProjectXcode;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -801,7 +800,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = diplomaProjectXcode;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

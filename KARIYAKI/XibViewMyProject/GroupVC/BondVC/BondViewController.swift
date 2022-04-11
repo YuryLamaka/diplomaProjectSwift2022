@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class BondDemoVC: UIViewController {
+class BondViewController: UIViewController {
     
     private var bondModel: BondModelProtocol!
   

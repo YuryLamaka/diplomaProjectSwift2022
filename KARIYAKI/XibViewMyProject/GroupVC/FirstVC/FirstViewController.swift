@@ -7,7 +7,9 @@
 
 import UIKit
 
-class FirstVC: UIViewController {
+class FirstViewController: UIViewController {
+    
+    weak var coordinator: AppCoordinator?
     
     
     private var imageView: UIImageView = {
@@ -73,27 +75,27 @@ class FirstVC: UIViewController {
     }
     
     @IBAction func starWarsButton(_ sender: Any) {
-        let starWarsVC = StarWarsVC(nibName: String(describing: StarWarsVC.self), bundle: nil)
+        let starWarsVC = StarWarsViewController(nibName: String(describing: StarWarsViewController.self), bundle: nil)
         navigationController?.pushViewController(starWarsVC, animated: true)
     }
     
     @IBAction func squadGamesButton(_ sender: Any) {
-        let squidGamesVC = SquidGamesVC(nibName: String(describing: SquidGamesVC.self), bundle: nil)
+        let squidGamesVC = SquidViewController(nibName: String(describing: SquidViewController.self), bundle: nil)
         navigationController?.pushViewController(squidGamesVC, animated: true)
     }
     
     @IBAction func  bondDemoButton(_ sender: Any) {
-        let bondDemoVC = BondDemoVC(nibName: String(describing: BondDemoVC.self), bundle: nil)
+        let bondDemoVC = BondViewController(nibName: String(describing: BondViewController.self), bundle: nil)
         navigationController?.pushViewController(bondDemoVC, animated: true)
     }
     
     @IBAction func grassHopperButton(_ sender: Any) {
-        let grassHopperVC = GrassHopperVC(nibName: String(describing: GrassHopperVC.self), bundle: nil)
+        let grassHopperVC = GrassHopperViewController(nibName: String(describing: GrassHopperViewController.self), bundle: nil)
         navigationController?.pushViewController(grassHopperVC, animated: true)
     }
     
     @IBAction func gemKingButton(_ sender: Any) {
-        let gemKingVC = GemKingVC(nibName: String(describing: GemKingVC.self), bundle: nil)
+        let gemKingVC = GemKingViewController(nibName: String(describing: GemKingViewController.self), bundle: nil)
         navigationController?.pushViewController(gemKingVC, animated: true)
     }
     
