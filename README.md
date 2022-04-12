@@ -1,6 +1,9 @@
 # diplomaProjectSwift2022
-MVC 
+MVVM
 AVFoundation
 sounds (notes & melody)
 enum 
 cells 
+no storyboard
+Xib
+
